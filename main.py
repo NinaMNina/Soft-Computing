@@ -9,7 +9,7 @@ except ImportError:
 
 if __name__ == '__main__':
     print 'hi'
-    img = cv2.imread('images/test2.png')
+    img = cv2.imread('images/ops.jpg')
    # image_ada = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
    # bw = cv2.adaptiveThreshold(image_ada, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 15, 2)
    # cv2.imshow('treshold', bw)
@@ -66,11 +66,11 @@ if __name__ == '__main__':
 
     length = len(matrix)/5
 
-    img = cv2.imread('images/test2.png')
+    img = cv2.imread('images/ops.jpg')
     for i in range(length):
         top = matrix[i*5]
         bottom = matrix[(i*5)+4]
-        lajna = img[(top[0]-30):(bottom[0]+30), :, :]
+        lajna = img[(top[0]-35):(bottom[0]+35), :, :]
         ime = 'images/slika'
         ime += str(i)
         ime += '.png'
