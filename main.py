@@ -80,19 +80,23 @@ if __name__ == '__main__':
         # cv2.waitKey(0)
         # cv2.destroyAllWindows()
 
-    img = cv2.imread('images/slika0.png', 0)
-    img = cv2.medianBlur(img, 5)
+    img = cv2.imread('images/slika2.png', 0)
+    edges = cv2.Canny(img, 100, 200)
+    edges = 255 - edges
+    # cv2.imshow('edges', edges)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
+
     cimg = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
-
-    circles = cv2.HoughCircles(img, cv2.HOUGH_GRADIENT, 1, 20,
-                               param1=50, param2=30, minRadius=0, maxRadius=0)
-
+    #circles = cv2.HoughCircles(edges, cv2.HOUGH_GRADIENT, 5, 8, param1=50, param2=30, minRadius=5, maxRadius=15)
+    circles = cv2.HoughCircles(edges, cv2.HOUGH_GRADIENT, 5, 8, param1=40, param2=30, minRadius=5, maxRadius=15)
     circles = np.uint16(np.around(circles))
     for i in circles[0, :]:
-        # draw the outer circle
-        cv2.circle(cimg, (i[0], i[1]), i[2], (0, 255, 0), 2)
-        # draw the center of the circle
-        cv2.circle(cimg, (i[0], i[1]), 2, (0, 0, 255), 3)
+        row = i[1]
+        col = i[0]
+        if (img.item(row, col)<30) :
+            cv2.circle(cimg, (i[0], i[1]), i[2], (0, 255, 0), 1)  # draw the outer circle
+            cv2.circle(cimg, (i[0], i[1]), 2, (0, 0, 255), 3)  # draw the center of the circle
 
     cv2.imshow('detected circles', cimg)
     cv2.waitKey(0)
