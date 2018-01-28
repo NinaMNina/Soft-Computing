@@ -165,4 +165,6 @@ if __name__ == '__main__':
         ime = 'recognition/nota'
         ime += str(i)
         ime += '.png'
+        gray_image = cv2.cvtColor(notica, cv2.COLOR_BGR2GRAY)
+        notica =  cv2.bitwise_not(gray_image)
         cv2.imwrite(ime, notica)
