@@ -4,12 +4,15 @@ import math
 import collections
 import os
 
+import app
+
 try:
     from cv2 import cv2
 except ImportError:
     pass
 
 if __name__ == '__main__':
+    window = app.__init__()
     print 'hi'
     img = cv2.imread('images/ops.jpg')
     # image_ada = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
