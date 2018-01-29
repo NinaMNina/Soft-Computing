@@ -3,12 +3,14 @@ from tkinter import *
 import tkinter as tk
 from tkinter.filedialog import askopenfilename
 import os
+import time
 
 
 def __init__():
 
     def callNN():
         print ('call trainning of NN')
+        d = MyDialog(frame)
 
     def addNotes():
         print ('it wants to add some notes')
@@ -76,4 +78,62 @@ def __init__():
 
 
     mainloop()
+
+class MyDialog:
+
+    def __init__(self, parent):
+        self.a = alien()
+    def ok(self):
+
+        print ("training is canceled"), self.e.get()
+
+        self.top.destroy()
+
+
+class alien(object):
+    def __init__(self):
+        self.root = Tk()
+        self.root.title("Convolution Neural Network is in training...")
+        cwd = os.getcwd()
+        self.root.iconbitmap(cwd + '/images/icon.ico')
+        self.canvas = Canvas(self.root, width=400, height=400)
+        self.canvas.pack()
+        self.alien1 = self.canvas.create_oval(20, 260, 120, 360, outline='white', fill='blue')
+        self.alien2 = self.canvas.create_oval(2, 2, 40, 40, outline='white', fill='red')
+        self.alien3 = self.canvas.create_oval(20, 20, 80, 80, outline='white', fill='white')
+        self.alien4 = self.canvas.create_oval(50, 130, 220, 300, outline='white', fill='purple')
+        self.alien5 = self.canvas.create_oval(25, 150, 100, 100, outline='white', fill='yellow')
+        self.alien6 = self.canvas.create_oval(20, 320, 120, 390, outline='white', fill='green')
+        self.canvas.pack()
+        self.root.after(0, self.animation)
+        self.root.mainloop()
+
+    def animation(self):
+        track = 0
+        while True:
+            x = 5
+            y = 0
+            if track == 0:
+                for i in range(0, 51):
+                    time.sleep(0.025)
+                    self.canvas.move(self.alien1, x, y)
+                    self.canvas.move(self.alien2, x, y)
+                    self.canvas.move(self.alien3, x, y)
+                    self.canvas.move(self.alien4, x, y)
+                    self.canvas.move(self.alien5, x, y)
+                    self.canvas.move(self.alien6, x, y)
+                    self.canvas.update()
+                track = 1
+
+            else:
+                for i in range(0, 51):
+                    time.sleep(0.025)
+                    self.canvas.move(self.alien1, -x, y)
+                    self.canvas.move(self.alien2, -x, y)
+                    self.canvas.move(self.alien3, -x, y)
+                    self.canvas.move(self.alien4, -x, y)
+                    self.canvas.move(self.alien5, -x, y)
+                    self.canvas.move(self.alien6, -x, y)
+                    self.canvas.update()
+                track = 0
 
