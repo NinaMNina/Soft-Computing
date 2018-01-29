@@ -1,5 +1,7 @@
 import numpy as np
 import cv2
+
+import keras
 from keras.layers import Conv2D
 from keras.layers import Dense
 from keras.layers import Flatten
@@ -114,13 +116,13 @@ from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
 nClasses = 14
 
 model = Sequential()
-model.add(Conv2D(32, (3, 3), padding='same', activation='relu', input_shape=(50,20,3)))
-model.add(Conv2D(32, (3, 3), activation='relu'))
+model.add(keras.layers.Conv2D(32, (3, 3), padding='same', activation='relu', input_shape=(50, 20, 3)))
+model.add(keras.layers.Conv2D(32, (3, 3), activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Dropout(0.25))
 
-model.add(Conv2D(64, (3, 3), padding='same', activation='relu'))
-model.add(Conv2D(64, (3, 3), activation='relu'))
+model.add(keras.layers.Conv2D(64, (3, 3), padding='same', activation='relu'))
+model.add(keras.layers.Conv2D(64, (3, 3), activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Dropout(0.25))
 
@@ -171,7 +173,7 @@ test_image = img_to_array(test_image)
 test_image = np.expand_dims(test_image, axis = 0)
 result = model.predict(test_image)
 
-print result
+print (result)
 resMax = result[0][0]
 pred = 'a4'
 if resMax < result [0][1]:
@@ -213,4 +215,4 @@ if resMax < result[0][12]:
 if resMax < result[0][13]:
     resMax = result[0][13]
     pred = 'violin_key'
-print resMax, pred
+print (resMax, pred)

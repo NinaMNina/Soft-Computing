@@ -1,16 +1,17 @@
 import cv2
-from Tkinter import *
-from tkFileDialog import askopenfilename
+from tkinter import *
+import tkinter as tk
+from tkinter.filedialog import askopenfilename
 import os
 
 
 def __init__():
 
     def callNN():
-        print 'call trainning of NN'
+        print ('call trainning of NN')
 
     def addNotes():
-        print 'it wants to add some notes'
+        print ('it wants to add some notes')
         name = askopenfilename(initialdir="D:/", filetypes=(("JPEG File", "*.jpg"), ("PNG File", "*.png")),
                                title="Choose an Image")
         print (name)
@@ -23,11 +24,11 @@ def __init__():
             print("No image exists")
 
     def processAndPerform():
-        print "make a melody"
+        print ("make a melody")
 
-    print 'init main frame - app.py'
+    print ('init main frame - app.py')
     cwd = os.getcwd()
-    frame = Tk()
+    frame = tk.Tk()
 
     frame.title('TNotes - Music Note Recognition')
     frame.geometry("500x400")
@@ -75,5 +76,4 @@ def __init__():
 
 
     mainloop()
-
 

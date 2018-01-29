@@ -13,7 +13,7 @@ except ImportError:
 
 if __name__ == '__main__':
     window = app.__init__()
-    print 'hi'
+    print ('hi')
     img = cv2.imread('images/ops.jpg')
     # image_ada = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     # bw = cv2.adaptiveThreshold(image_ada, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 15, 2)
@@ -153,7 +153,7 @@ if __name__ == '__main__':
     loc = os.getcwd()
 
     loc += '/recognition'
-    print loc
+    print (loc)
 
     fileList = os.listdir(loc)
     for fileName in fileList:
