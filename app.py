@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter.filedialog import askopenfilename
 import os
 import time
+from playNotes import PlayNotes
 
 
 def __init__():
@@ -26,6 +27,7 @@ def __init__():
             print("No image exists")
 
     def processAndPerform():
+        melody = PlayNotes.__init__()
         print ("make a melody")
 
     print ('init main frame - app.py')
