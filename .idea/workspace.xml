@@ -1,8 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="505030e8-64b3-478d-9553-54749eec170f" name="Default" comment="">
+    <list default="true" id="505030e8-64b3-478d-9553-54749eec170f" name="Default" comment="dodate note a3 i h3 u test i train data">
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/predict/taktica.png" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/soft.iml" afterPath="$PROJECT_DIR$/.idea/soft.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bitwtest.png" afterPath="$PROJECT_DIR$/bitwtest.png" />
+      <change beforePath="$PROJECT_DIR$/images/girl.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/predict/12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/predict/cat_or_dog_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/predict/d4.png" afterPath="$PROJECT_DIR$/images/predict/d4.png" />
+      <change beforePath="$PROJECT_DIR$/images/predict/donut.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/predict/kitty.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nn_setup.py" afterPath="$PROJECT_DIR$/nn_setup.py" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-16pause/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-16pause/note_175.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-16pause/note_176.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-16pause/note_234.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-16pause/note_235.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-16pause/note_278.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-16pause/note_279.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-1pause/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-1pause/note_178.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-1pause/note_185.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-1pause/note_221.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-1pause/note_239.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-1pause/note_284.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-1pause/note_285.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-2pause/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-2pause/note_170.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-2pause/note_179.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-2pause/note_233.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-2pause/note_252.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-2pause/note_277.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-2pause/note_286.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-4pause/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-4pause/note_146.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-4pause/note_147.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-4pause/note_190.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-4pause/note_197.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-4pause/note_288.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-4pause/note_289.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-8pause/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-8pause/note_148.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-8pause/note_149.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-8pause/note_184.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-8pause/note_191.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-8pause/note_280.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/1-8pause/note_281.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_150.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_151.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_164.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_193.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_194.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_201.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_202.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_217.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_218.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_230.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_231.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_241.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_242.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_255.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_256.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_262.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_263.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_268.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_269.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_292.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-16pause/note_293.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_167.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_168.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_177.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_186.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_195.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_196.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_207.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_208.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_215.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_216.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_220.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_270.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_271.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_272.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_273.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_274.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-1pause/note_275.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_159.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_160.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_169.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_180.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_187.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_188.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_199.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_211.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_212.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_232.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_253.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_257.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_258.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_264.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_265.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_266.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_267.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_276.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-2pause/note_287.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_140.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_141.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_142.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_152.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_153.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_156.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_171.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_172.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_181.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_182.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_189.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_198.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_209.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_210.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_247.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_248.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_261.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_282.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-4pause/note_283.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_143.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_144.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_145.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_154.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_155.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_157.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_158.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_163.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_173.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_174.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_183.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_192.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_222.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_237.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_238.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_243.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_244.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_249.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_250.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_290.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/1-8pause/note_291.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/A3/48.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/train_data/H3/34.png" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,88 +164,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="nn_setup.py" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="nn_setup.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nn_setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="569" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="569" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="playNotes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playNotes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nn_setup_value.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nn_setup_value.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="276" column="14" lean-forward="true" selection-start-line="276" selection-start-column="14" selection-end-line="276" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="makeSound.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/makeSound.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python35/envs/Lib/site-packages/keras/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20944">
-              <caret line="1255" column="0" lean-forward="false" selection-start-line="1255" selection-start-column="0" selection-end-line="1255" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="interfaces.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python35/envs/Lib/site-packages/keras/legacy/interfaces.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="-1284">
+              <caret line="165" column="22" lean-forward="false" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -126,18 +202,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/nn_setup.py" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/MakeSound.py" />
         <option value="$PROJECT_DIR$/makeSound.py" />
         <option value="$PROJECT_DIR$/playNotes.py" />
-        <option value="$PROJECT_DIR$/nn_setup_value.py" />
+        <option value="$PROJECT_DIR$/a.py" />
+        <option value="$PROJECT_DIR$/nn_setup.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="135" />
+    <option name="x" value="604" />
+    <option name="y" value="259" />
     <option name="width" value="1440" />
     <option name="height" value="810" />
   </component>
@@ -157,6 +233,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,12 +242,15 @@
               <item name="soft" type="b2602c69:ProjectViewProjectNode" />
               <item name="Soft-Computing" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="soft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Soft-Computing" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,7 +286,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.nn_setup_value">
+  <component name="RunManager" selected="Python.nn_setup">
+    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="soft" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,24 +336,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="soft" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nn_setup.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="nn_setup_value" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="soft" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nn_setup_value.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -350,12 +431,12 @@
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
       <item index="1" class="java.lang.String" itemvalue="Python.nn_setup" />
-      <item index="2" class="java.lang.String" itemvalue="Python.nn_setup_value" />
+      <item index="2" class="java.lang.String" itemvalue="Python.a" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.nn_setup_value" />
-        <item index="1" class="java.lang.String" itemvalue="Python.nn_setup" />
+        <item index="0" class="java.lang.String" itemvalue="Python.nn_setup" />
+        <item index="1" class="java.lang.String" itemvalue="Python.a" />
       </list>
     </recent_temporary>
   </component>
@@ -422,39 +503,26 @@
       <option name="project" value="LOCAL" />
       <updated>1517275215923</updated>
     </task>
-    <task id="LOCAL-00008" summary="dodata klasa za izvodjenje nota">
-      <created>1517410567797</created>
+    <task id="LOCAL-00008" summary="dodate note a3 i h3 u test i train data">
+      <created>1517418233814</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1517410567797</updated>
+      <updated>1517418233814</updated>
     </task>
-    <task id="LOCAL-00009" summary="radi neuronska za trajanje note">
-      <created>1517432825917</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1517432825917</updated>
-    </task>
-    <task id="LOCAL-00010" summary="radi neuronska za trajanje note">
-      <created>1517432932713</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1517432932713</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15300146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15364583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37242472" sideWeight="0.3272328" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39958376" sideWeight="0.32604167" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.49583334" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37242472" sideWeight="0.6727672" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39958376" sideWeight="0.67395836" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -465,7 +533,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -500,9 +567,8 @@
     <MESSAGE value="izmenjeno cuvanje pojedinacnih nota: b&amp;w pa bitwise" />
     <MESSAGE value="krenuli sa notama" />
     <MESSAGE value="dodate trening i test klase i primeri" />
-    <MESSAGE value="dodata klasa za izvodjenje nota" />
-    <MESSAGE value="radi neuronska za trajanje note" />
-    <option name="LAST_COMMIT_MESSAGE" value="radi neuronska za trajanje note" />
+    <MESSAGE value="dodate note a3 i h3 u test i train data" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodate note a3 i h3 u test i train data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -511,41 +577,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/test2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/slika1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/numpy/core/fromnumeric.py" />
-    <entry file="file://$PROJECT_DIR$/images/slika0_nota0.png" />
-    <entry file="file://$PROJECT_DIR$/images/slika0_nota1.png" />
-    <entry file="file://$PROJECT_DIR$/images/slika0_nota2.png" />
-    <entry file="file://$PROJECT_DIR$/images/slika0_nota4.png" />
-    <entry file="file://$PROJECT_DIR$/images/slika0_nota6.png" />
-    <entry file="file://$PROJECT_DIR$/images/slika0_nota11.png" />
-    <entry file="file://$PROJECT_DIR$/images/test_set/donuts/2546740.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/test_set/dogs/dog.4001.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/predict/kitty.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/predict/donut.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/predict/cat_or_dog_1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recognition/nota8.png" />
     <entry file="file://$PROJECT_DIR$/recognition/nota6.png" />
     <entry file="file://$PROJECT_DIR$/recognition/nota3.png" />
     <entry file="file://$PROJECT_DIR$/recognition/nota2.png" />
@@ -570,62 +601,80 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/SoftProjekat-master/ProjekatSoft/ann_functions.py" />
     <entry file="file://$USER_HOME$/Desktop/SoftProjekat-master/ProjekatSoft/ann.py" />
+    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/engine/training.py" />
+    <entry file="file://$PROJECT_DIR$/images/predict/pause1-8.png" />
+    <entry file="file://$PROJECT_DIR$/images/predict/pause1-2.png" />
+    <entry file="file://$PROJECT_DIR$/images/predict/pause1-4.png" />
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/Lib/tkinter/__init__.py" />
+    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/models.py" />
+    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/legacy/interfaces.py" />
+    <entry file="file://$PROJECT_DIR$/major-scale.mid" />
+    <entry file="file://C:/Python35/envs/Lib/site-packages/midiutil/MidiFile.py" />
+    <entry file="file://$PROJECT_DIR$/makeSound.py" />
+    <entry file="file://$PROJECT_DIR$/playNotes.py" />
+    <entry file="file://$PROJECT_DIR$/train_data/1-1pause/note_177.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/1-1pause/note_185.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/1-2pause/note_170.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/1-8pause/note_184.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/1-16pause/note_176.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/1-16pause/note_175.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/1-16pause/note_235.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/1-16pause/note_279.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/1-16pause/note_234.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bitwtest.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/engine/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36669">
-          <caret line="2176" column="0" lean-forward="false" selection-start-line="2176" selection-start-column="0" selection-end-line="2176" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/predict/12.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/predict/pause1-8.png" />
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35/Lib/tkinter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="1557" column="0" lean-forward="false" selection-start-line="1557" selection-start-column="0" selection-end-line="1557" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20944">
-          <caret line="1255" column="0" lean-forward="false" selection-start-line="1255" selection-start-column="0" selection-end-line="1255" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/legacy/interfaces.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/major-scale.mid">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
@@ -636,52 +685,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python35/envs/Lib/site-packages/midiutil/MidiFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="898" column="0" lean-forward="false" selection-start-line="898" selection-start-column="0" selection-end-line="898" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/makeSound.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playNotes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nn_setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="569" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="569" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_data1/1-2/6c.png">
+    <entry file="file://$PROJECT_DIR$/images/predict/cela_pauza.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/predict/pause1-4.png">
+    <entry file="file://$PROJECT_DIR$/images/predict/cetvrtina_pauze.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/predict/pause1-2.png">
+    <entry file="file://$PROJECT_DIR$/images/predict/h3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/predict/osmina_pauze.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/predict/pola_pauze.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/predict/taktica.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/predict/vkljuc_test.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -696,10 +730,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nn_setup_value.py">
+    <entry file="file://$PROJECT_DIR$/images/predict/a3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nn_setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="276" column="14" lean-forward="true" selection-start-line="276" selection-start-column="14" selection-end-line="276" selection-end-column="14" />
+        <state relative-caret-position="-1284">
+          <caret line="165" column="22" lean-forward="false" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
