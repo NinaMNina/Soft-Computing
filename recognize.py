@@ -3,7 +3,7 @@ import cv2
 import os
 
 
-
+#TESTIRAMO NA OVOJ SLICI PREPOZNAVANJE REDOVA NOTNOG SISTEMA
 img = cv2.imread('images/ops.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 edges = cv2.Canny(gray, 50, 150, apertureSize=3)
@@ -14,7 +14,7 @@ lines = cv2.HoughLinesP(image=edges, rho=0.02, theta=np.pi / 500, threshold=10, 
 
 y, x, c = lines.shape
 matrix = []
-    # print(lines.shape)
+#BOJIMO LINIJE U REDOVIMA NOTNOG SISTEMA DA VIDIMO KOJE JE IZDVOJIO
 for i in range(y):
         cv2.line(img, (lines[i][0][0], lines[i][0][1]), (lines[i][0][2], lines[i][0][3]), (0, 0, 255), 3, cv2.LINE_AA)
 
@@ -23,7 +23,7 @@ for i in range(y):
     #
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
-
+#BRISEMO SVE OSIM TIH LINIJA KOJE JE PREPOZNAO, RADI BOLJE PREGLEDNOSTI
 for col in range(img.shape[1]):
     for row in range(img.shape[0]):
         if (img.item(row, col, 2) != 255):
@@ -36,6 +36,7 @@ for col in range(img.shape[1]):
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
 
+#PRAVIMO MATRICU POZICIJA HORIZONTALNIH LINIJA
 col = img.shape[1] / 2
 for row in range(img.shape[0]):
 
@@ -45,9 +46,11 @@ for row in range(img.shape[0]):
             l = [row, col]
             matrix.append(l)
             # img.itemset((row,col, 0), 255)
-
+#DUZINA JE BROJ LINIJA IZ MATRICE PODELJENO SA 5 JER U SVAKOM REDU NOTNOG SISTEMA IMA PO 5 HORIZONTALNIH LINIJA
+#DOBIJAMO BROJ REDOVA TJ DELOVA KOJE TREBA ISECI I ZATIM POSEBNO OBRADITI
 length = len(matrix) / 5
 
+#UCITAVAMO SLIKU I DELIMO JE U DELOVE VODECI SE MATRICOM KOJA SADRZI POZICIJE SVIH HORIZONTALNIH LINIJA
 img = cv2.imread('images/ops.jpg')
 for i in range(length):
     top = matrix[i * 5]
@@ -62,7 +65,7 @@ for i in range(length):
         # cv2.waitKey(0)
         # cv2.destroyAllWindows()
 
-#PROBA PRVOG DELA SLIKE
+#PROBA PRVOG DELA SLIKE TJ PRVOG REDA, BRISEMO HORIZONTALNE LINIJE DA IZDVOJIMO SIMBOLE
 img = cv2.imread('images/parts/slika0.png')
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -89,6 +92,8 @@ for row in range(img.shape[0]):
                     matrix.append(col)
                 # img.itemset((row,col, 0), 255)
 matrix.sort()
+
+#ODVAJAMO NOTE
 notes = []
 matSize = len(matrix) - 1
 begin = matrix[0] - 1
@@ -114,10 +119,12 @@ loc = os.getcwd()
 loc += '/images/notes'
 print (loc)
 
+#BRISEMO STARE SLIKE AKO JE VEC RADJEN OVAJ POSTUPAK
 fileList = os.listdir(loc)
 for fileName in fileList:
     os.remove(loc + "/" + fileName)
 
+#OD ORIGINALNE SLIKE IZDVAJAMO NOTE I SVAKU SECEMO U POSEBNU SLIKU
 img = cv2.imread('images/parts/slika0.png')
 for i in range(length):
     value = notes[i]
