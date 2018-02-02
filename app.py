@@ -1,18 +1,34 @@
 import cv2
+import numpy as np
 from tkinter import *
 import tkinter as tk
 from tkinter.filedialog import askopenfilename
 import os
 import time
+import threading
+from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
 from playNotes import PlayNotes
+from nn_setup import CNNValue
+from nn_setup_value import CNNDuraiton
 
 
 def __init__():
 
     def callNN():
         print ('call trainning of NN')
-        d = MyDialog(frame)
 
+        threads = []
+        t2 = threading.Thread(target=appDialog)
+        threads.append(t2)
+        t2.start()
+
+        t1 = threading.Thread(target=neuralDuration)
+        threads.append(t1)
+        t1.start()
+
+
+    def appDialog():
+        d = MyDialog(frame)
     def addNotes():
         print ('it wants to add some notes')
         name = askopenfilename(initialdir="D:/", filetypes=(("JPEG File", "*.jpg"), ("PNG File", "*.png")),
@@ -30,7 +46,16 @@ def __init__():
         melody = PlayNotes.__init__()
         print ("make a melody")
 
+    def neuralDuration():
+        cnnd = CNNDuraiton.__init__()
+        CNNDuraiton.checkLength('images/predict/1-2.png')
+        cnnv = CNNValue.__init__()
+        CNNValue.checkNote('images/predict/1-2.png')
+        MyDialog.quit()
+
+
     print ('init main frame - app.py')
+
     cwd = os.getcwd()
     frame = tk.Tk()
 
@@ -78,21 +103,9 @@ def __init__():
     img = PhotoImage(file=path)
     imgCanvas.create_image(0, 0, image=img, anchor="nw" )
 
-
     mainloop()
 
-class MyDialog:
-
-    def __init__(self, parent):
-        self.a = alien()
-    def ok(self):
-
-        print ("training is canceled"), self.e.get()
-
-        self.top.destroy()
-
-
-class alien(object):
+class Alien():
     def __init__(self):
         self.root = Tk()
         self.root.title("Convolution Neural Network is in training...")
@@ -108,8 +121,12 @@ class alien(object):
         self.alien6 = self.canvas.create_oval(20, 320, 120, 390, outline='white', fill='green')
         self.canvas.pack()
         self.root.after(0, self.animation)
+
+
         self.root.mainloop()
 
+    def quit(self):
+        self.root.destroy()
     def animation(self):
         track = 0
         while True:
@@ -138,4 +155,10 @@ class alien(object):
                     self.canvas.move(self.alien6, -x, y)
                     self.canvas.update()
                 track = 0
+class MyDialog():
+    a = {}
+    def __init__(self, parent):
+        MyDialog.a = Alien()
+    def quit():
+        alien = MyDialog.a
 
