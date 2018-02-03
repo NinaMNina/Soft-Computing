@@ -4,7 +4,7 @@ import math
 import collections
 import os
 
-import app
+from app import MainFrame
 
 try:
     from cv2 import cv2
@@ -12,5 +12,5 @@ except ImportError:
     pass
 
 if __name__ == '__main__':
-    window = app.__init__()
+    window = MainFrame()
     print ('hi')
