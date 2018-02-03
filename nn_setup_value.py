@@ -13,29 +13,27 @@ class CNNDuraiton():
         nClasses = 10
 
         model = Sequential()
-        model.add(Conv2D(32, (3, 3), padding='same', activation='relu', input_shape=(70,30,3)))
-        #model.add(Conv2D(32, (3, 3), activation='relu'))
+        model.add(Conv2D(32, (3, 3), padding='same', activation='relu', input_shape=(70, 30, 3)))
+        model.add(Conv2D(32, (3, 3), activation='relu'))
         model.add(MaxPooling2D(pool_size=(2, 2)))
         model.add(Dropout(0.25))
 
         model.add(Conv2D(64, (3, 3), padding='same', activation='relu'))
-        #model.add(Conv2D(64, (3, 3), activation='relu'))
+        model.add(Conv2D(64, (3, 3), activation='relu'))
         model.add(MaxPooling2D(pool_size=(2, 2)))
         model.add(Dropout(0.25))
 
-        model.add(Conv2D(64, (3, 3), padding='same', activation='relu'))
-        #model.add(Conv2D(64, (3, 3), activation='relu'))
-        model.add(MaxPooling2D(pool_size=(2, 2)))
-        model.add(Dropout(0.25))
+        # model.add(Conv2D(64, (3, 3), padding='same', activation='relu'))
+        # model.add(Conv2D(64, (3, 3), activation='relu'))
+        # model.add(MaxPooling2D(pool_size=(2, 2)))
+        # model.add(Dropout(0.25))
 
         model.add(Flatten())
         model.add(Dense(512, activation='relu'))
         model.add(Dropout(0.5))
         model.add(Dense(nClasses, activation='softmax'))
 
-        model.compile(optimizer = 'rmsprop', loss = 'categorical_crossentropy', metrics = ['accuracy'])
-
-
+        model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['accuracy'])
 
         train_datagen = ImageDataGenerator(
         rescale = 1./255,
@@ -58,10 +56,10 @@ class CNNDuraiton():
         class_mode = 'categorical')
 
         model.fit_generator(training_set,
-        steps_per_epoch = 503,
+        steps_per_epoch = 1027,
         epochs = 2,
         validation_data = test_set,
-        validation_steps = 210)
+        validation_steps = 345)
         CNNDuraiton.model = model
 
 
@@ -109,29 +107,28 @@ class CNNDuraiton():
         print (resMax, pred)
 
 # Part 3 - Making new predictions
-
 #
-# checkLength('images/predict/1-2.png')
-# print('---should be n1-2---')
-# checkLength('images/predict/1-16.png')
-# print('---should be n1-16---')
-# checkLength('images/predict/a3.jpg')
-# print('---should be n1-2---')
-# checkLength('images/predict/a4_test.png')
-# print('---should be n1-8---')
-# checkLength('images/predict/cela_pauza.png')
-# print('---should be p1-1---')
-# checkLength('images/predict/cetvrtina_pauze.png')
-# print('---should be p1-4---')
-# checkLength('images/predict/d4.png')
-# print('---should be n1-4---')
-# checkLength('images/predict/len1-4.png')
-# print('---should be n1-4---')
-# checkLength('images/predict/osmina_pauze.png')
-# print('---should be p1-8---')
-# checkLength('images/predict/pause1-2.png')
-# print('---should be p1-2---')
-# checkLength('images/predict/pause1-4.png')
-# print('---should be p1-4---')
-# checkLength('images/predict/pola_pauze.png')
-# print('---should be p1-2---')
+#     checkLength('images/predict/1-2.png')
+#     print('---should be n1-2---')
+#     checkLength('images/predict/1-16.png')
+#     print('---should be n1-16---')
+#     checkLength('images/predict/a3.jpg')
+#     print('---should be n1-2---')
+#     checkLength('images/predict/a4_test.png')
+#     print('---should be n1-8---')
+#     checkLength('images/predict/cela_pauza.png')
+#     print('---should be p1-1---')
+#     checkLength('images/predict/cetvrtina_pauze.png')
+#     print('---should be p1-4---')
+#     checkLength('images/predict/d4.png')
+#     print('---should be n1-4---')
+#     checkLength('images/predict/len1-4.png')
+#     print('---should be n1-4---')
+#     checkLength('images/predict/osmina_pauze.png')
+#     print('---should be p1-8---')
+#     checkLength('images/predict/pause1-2.png')
+#     print('---should be p1-2---')
+#     checkLength('images/predict/pause1-4.png')
+#     print('---should be p1-4---')
+#     checkLength('images/predict/pola_pauze.png')
+#     print('---should be p1-2---')
