@@ -12,6 +12,7 @@ from nn_setup import CNNValue
 from nn_setup_value import CNNDuraiton
 
 class MainFrame():
+    path = ""
     def __init__(self):
         print ('init main frame - app.py')
         cwd = os.getcwd()
@@ -40,8 +41,8 @@ class MainFrame():
         label1 = Label(labelF, text="Add notes to process")
         label1.grid(row=3, column=0)
 
-        entry = Entry(labelF, width=50)
-        entry.grid(row=3, column=1)
+        self.entry = Entry(labelF, width=50)
+        self.entry.grid(row=3, column=1)
 
         button2 = Button(labelF, text="Search", command=self.addNotes)
         button2.grid(row=3, column=2)
@@ -92,7 +93,7 @@ class MainFrame():
         self.param = True
         self.top._job = self.top.after(0, self.animation)
 
-    def addNotes():
+    def addNotes(self):
         print('it wants to add some notes')
         name = askopenfilename(initialdir="D:/", filetypes=(("JPEG File", "*.jpg"), ("PNG File", "*.png")),
                                title="Choose an Image")
@@ -100,50 +101,55 @@ class MainFrame():
         # Using try in case user types in unknown file or closes without choosing a file.
         try:
             img = cv2.imread(name)
-            entry.delete(0, END)  # deletes the current value
-            entry.insert(0, name)
+            self.entry.delete(0, END)  # deletes the current value
+            self.entry.insert(0, name)
+            MainFrame.path = name
         except:
             print("No image exists")
 
-    def processAndPerform():
-        melody = PlayNotes.__init__()
-        print("make a melody")
+    def processAndPerform(self):
+        if MainFrame.path=="":
+            return
+        melody = PlayNotes()
+        print("making a melody")
 
     def neuralDuration(self):
         cnnd = CNNDuraiton.__init__()
-        CNNDuraiton.checkLength('images/predict/1-2.png')
-        print('---should be n1-2---')
-        CNNDuraiton.checkLength('images/predict/1-16.png')
-        print('---should be n1-16---')
-        CNNDuraiton.checkLength('images/predict/a3.jpg')
-        print('---should be n1-2---')
-        CNNDuraiton.checkLength('images/predict/a4_test.png')
-        print('---should be n1-8---')
-        CNNDuraiton.checkLength('images/predict/cela_pauza.png')
-        print('---should be p1-1---')
-        CNNDuraiton.checkLength('images/predict/cetvrtina_pauze.png')
-        print('---should be p1-4---')
-        CNNDuraiton.checkLength('images/predict/d4.png')
-        print('---should be n1-4---')
-        CNNDuraiton.checkLength('images/predict/len1-4.png')
-        print('---should be n1-4---')
-        CNNDuraiton.checkLength('images/predict/osmina_pauze.png')
-        print('---should be p1-8---')
-        CNNDuraiton.checkLength('images/predict/pause1-2.png')
-        print('---should be p1-2---')
-        CNNDuraiton.checkLength('images/predict/pause1-4.png')
-        print('---should be p1-4---')
-        CNNDuraiton.checkLength('images/predict/pola_pauze.png')
-        print('---should be p1-2---')
+        #CNNDuraiton.checkLength('images/predict/1-2.png')
+        # print('---should be n1-2---')
+        # CNNDuraiton.checkLength('images/predict/1-16.png')
+        # print('---should be n1-16---')
+        # CNNDuraiton.checkLength('images/predict/a3.jpg')
+        # print('---should be n1-2---')
+        # CNNDuraiton.checkLength('images/predict/a4_test.png')
+        # print('---should be n1-8---')
+        # CNNDuraiton.checkLength('images/predict/cela_pauza.png')
+        # print('---should be p1-1---')
+        # CNNDuraiton.checkLength('images/predict/cetvrtina_pauze.png')
+        # print('---should be p1-4---')
+        # CNNDuraiton.checkLength('images/predict/d4.png')
+        # print('---should be n1-4---')
+        # CNNDuraiton.checkLength('images/predict/len1-4.png')
+        # print('---should be n1-4---')
+        # CNNDuraiton.checkLength('images/predict/osmina_pauze.png')
+        # print('---should be p1-8---')
+        # CNNDuraiton.checkLength('images/predict/pause1-2.png')
+        # print('---should be p1-2---')
+        # CNNDuraiton.checkLength('images/predict/pause1-4.png')
+        # print('---should be p1-4---')
+        # CNNDuraiton.checkLength('images/predict/pola_pauze.png')
+        # print('---should be p1-2---')
         cnnv = CNNValue.__init__()
-        CNNValue.checkNote('images/predict/1-2.png')
+        # CNNValue.checkNote('images/predict/1-2.png')
 
 
-        self.threads.__delitem__(1)
-        self.threads.__delitem__(0)
-        self.param = False
-        self.top.after_cancel(self.top._job)
-        self.top.destroy()
+        # self.param = False
+        # self.top.after_cancel(self.top._job)
+        # self.threads.__delitem__(1)
+        # self.param = False
+        # self.top.after_cancel(self.top._job)
+        # self.threads.__delitem__(0)
+        # self.top.destroy()
 
     def disable_event(self):
         pass

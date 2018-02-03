@@ -56,10 +56,10 @@ class CNNDuraiton():
         class_mode = 'categorical')
 
         model.fit_generator(training_set,
-        steps_per_epoch = 1027,
+        steps_per_epoch = 1460,
         epochs = 2,
         validation_data = test_set,
-        validation_steps = 345)
+        validation_steps = 471)
         CNNDuraiton.model = model
 
 
@@ -105,6 +105,7 @@ class CNNDuraiton():
             resMax = result[0][9]
             pred = 'p1-8'
         print (resMax, pred)
+        return pred
 
 # Part 3 - Making new predictions
 #

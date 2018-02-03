@@ -1,690 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="505030e8-64b3-478d-9553-54749eec170f" name="Default" comment="">
+    <list default="true" id="505030e8-64b3-478d-9553-54749eec170f" name="Default" comment="povezana obuka neuronskih mreza na dugme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
       <change beforePath="$PROJECT_DIR$/bitwtest.png" afterPath="$PROJECT_DIR$/bitwtest.png" />
-      <change beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change beforePath="$PROJECT_DIR$/images/Thumbs.db" afterPath="$PROJECT_DIR$/images/Thumbs.db" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota0.png" afterPath="$PROJECT_DIR$/images/notes/nota0.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota1.png" afterPath="$PROJECT_DIR$/images/notes/nota1.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota10.png" afterPath="$PROJECT_DIR$/images/notes/nota10.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota11.png" afterPath="$PROJECT_DIR$/images/notes/nota11.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota12.png" afterPath="$PROJECT_DIR$/images/notes/nota12.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota13.png" afterPath="$PROJECT_DIR$/images/notes/nota13.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota14.png" afterPath="$PROJECT_DIR$/images/notes/nota14.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota15.png" afterPath="$PROJECT_DIR$/images/notes/nota15.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota16.png" afterPath="$PROJECT_DIR$/images/notes/nota16.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota17.png" afterPath="$PROJECT_DIR$/images/notes/nota17.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota18.png" afterPath="$PROJECT_DIR$/images/notes/nota18.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota19.png" afterPath="$PROJECT_DIR$/images/notes/nota19.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota2.png" afterPath="$PROJECT_DIR$/images/notes/nota2.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota20.png" afterPath="$PROJECT_DIR$/images/notes/nota20.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota3.png" afterPath="$PROJECT_DIR$/images/notes/nota3.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota4.png" afterPath="$PROJECT_DIR$/images/notes/nota4.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota5.png" afterPath="$PROJECT_DIR$/images/notes/nota5.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota6.png" afterPath="$PROJECT_DIR$/images/notes/nota6.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota7.png" afterPath="$PROJECT_DIR$/images/notes/nota7.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota8.png" afterPath="$PROJECT_DIR$/images/notes/nota8.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota9.png" afterPath="$PROJECT_DIR$/images/notes/nota9.png" />
+      <change beforePath="$PROJECT_DIR$/images/predict/Thumbs.db" afterPath="$PROJECT_DIR$/images/predict/Thumbs.db" />
       <change beforePath="$PROJECT_DIR$/nn_setup.py" afterPath="$PROJECT_DIR$/nn_setup.py" />
       <change beforePath="$PROJECT_DIR$/nn_setup_value.py" afterPath="$PROJECT_DIR$/nn_setup_value.py" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note1/3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note1/5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note1/51.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note1/55.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note1/7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note1/9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note1/cele (19).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note1/cele (20).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note1/cele (21).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note1/cele (22).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/13.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/18.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/19.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/22.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/24.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/27.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/28.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (16).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (17).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (18).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (19).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (20).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (21).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (22).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (23).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (24).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (25).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (26).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (27).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (28).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (29).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (30).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (31).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (32).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note16/tes (33).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note2/15.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note2/19.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note2/22.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note2/pola (10).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note2/pola (11).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note2/pola (2).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note2/pola (3).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note2/pola (4).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note2/pola (5).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note2/pola (6).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note2/pola (7).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note2/pola (8).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note2/pola (9).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note4/37.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note4/38.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note4/40.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note4/41.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note4/42.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note4/43.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note4/45.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note4/46.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note4/47.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note4/48.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note4/49.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note4/f (41).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/15.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/19.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/20.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/21.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/22.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/23.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/24.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/25.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/26.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/27.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/31.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/34.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/39.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/44.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/45.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/52.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/53.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/55.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/55f.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/56.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/note8/7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cela (39).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cela (40).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cela (42).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cela (43).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cela (44).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cela (45).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cela (46).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cela (47).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cela (48).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cela (49).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cela (51).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cela (52).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cela (54).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cela (55).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (1).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (10).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (11).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (12).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (13).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (14).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (15).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (16).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (17).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (18).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (2).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (23).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (24).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (25).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (26).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (27).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (28).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (29).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (3).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (30).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (31).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (32).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (33).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (34).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (35).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (36).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (37).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (38).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (39).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (4).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (40).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (41).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (42).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (43).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (44).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (45).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (46).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (47).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (48).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (49).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (5).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (50).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (6).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (65).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (66).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (67).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (68).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (69).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (7).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (70).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (71).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (72).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (73).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (74).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (8).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (81).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (82).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (83).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (84).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze1/cele (9).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/15.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/17.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/21.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/26.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/27.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/30.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/33.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/38.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/40.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/41.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/42.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/53.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (10).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (12).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (13).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (15).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (17).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (18).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (19).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (20).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (27).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (28).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (29).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (46).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (48).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (49).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (51).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (52).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (53).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (54).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (55).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (56).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (57).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (58).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (60).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (61).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (8).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze16/sesnaest (9).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (21).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (22).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (23).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (24).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (25).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (26).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (27).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (28).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (29).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (30).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (31).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (32).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (33).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (34).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (35).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (36).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (37).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (38).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (39).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (40).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (48).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (49).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (50).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (53).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (54).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (56).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (57).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (58).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (59).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze2/pola (60).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/17.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/cetvrtina (35).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/cetvrtina (36).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/cetvrtina (37).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/cetvrtina (38).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/cetvrtina (39).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/cetvrtina (40).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/cetvrtina (41).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/cetvrtina (42).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/cetvrtina (44).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/cetvrtina (45).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/cetvrtina (47).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/f (3).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/f (4).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/f (5).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze4/f (6).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/19.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/21.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/30.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (1).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (10).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (11).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (12).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (13).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (14).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (16).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (17).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (19).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (2).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (20).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (21).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (22).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (23).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (4).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (7).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (8).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_data1/pauze8/osmine (9).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (25).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (27).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (28).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (30).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (31).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (32).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (34).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (35).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (37).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (38).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (40).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (47).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (49).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (52).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (53).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (54).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (56).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (58).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (60).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (64).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (7).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (71).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (72).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (74).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (77).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (78).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (80).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (82).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (83).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (85).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note1/cele (88).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/12.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/15.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/17.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/21.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/23.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/25.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/26.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/27.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/29.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/30.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/33.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/35.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/37.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/38.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/39.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/40.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/42.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/43.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/44.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/45.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/62.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/66.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/67.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/88.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/89.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/90.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/91.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/92.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/93.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (1).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (107).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (11).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (128).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (133).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (15).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (17).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (20).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (22).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (23).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (24).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (31).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (34).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (35).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (4).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (6).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (86).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note16/sest (9).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (11).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (12).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (14).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (15).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (17).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (18).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (19).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (21).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (22).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (23).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (25).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (26).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (27).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (28).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (29).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (31).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (32).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (33).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (36).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (37).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (39).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (45).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (7).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note2/polovine (8).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (10).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (11).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (15).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (21).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (25).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (26).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (28).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (3).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (30).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (33).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (37).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (39).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (4).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (42).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (45).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (47).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (48).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (49).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (51).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (52).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (6).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note4/cetvrt (8).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/13.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/17.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/18.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/20.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/21.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/22.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/23.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/25.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/26.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/28.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/29.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/30.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/33.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/35.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/36.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/37.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/38.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/40.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/41.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/43.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/45.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/46.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/47.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/48.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/49.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/51.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/53.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/54.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/55.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/57.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/58.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/59.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (21).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (22).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (23).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (24).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (25).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (26).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (27).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (28).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (29).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (30).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (31).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (32).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (33).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (34).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (35).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (36).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (37).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (38).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (39).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (40).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (41).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (42).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (43).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (44).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (45).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (46).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (47).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (48).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (49).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (50).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (71).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (72).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (73).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (74).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (75).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (76).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (77).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (78).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (79).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (80).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (81).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (82).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (83).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (84).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (85).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (86).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/note8/note8 (87).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (1).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (10).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (11).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (12).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (13).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (15).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (16).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (18).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (19).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (20).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (21).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (22).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (23).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (24).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (25).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (27).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (28).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (3).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (30).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (31).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (32).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (4).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (6).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (7).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (8).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze1/cela (9).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/12.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/13.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/17.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/18.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/19.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/20.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/22.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze16/9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (1).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (10).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (11).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (12).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (13).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (15).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (16).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (18).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (19).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (20).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (21).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (22).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (23).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (24).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (25).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (27).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (28).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (3).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (30).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (31).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (32).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (33).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (34).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (35).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (36).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (37).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (39).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (4).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (40).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (42).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (43).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (44).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (45).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (46).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (47).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (48).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (49).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (51).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (6).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (7).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (8).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/pola (9).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/polovine (103).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/polovine (104).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/polovine (87).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/polovine (88).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/polovine (89).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/polovine (91).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/polovine (92).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/polovine (93).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/polovine (95).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/polovine (97).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze2/polovine (99).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/12.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/13.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/15.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/18.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/19.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/20.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/21.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/22.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/23.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/24.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/25.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/26.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/27.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/28.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/29.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/30.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/31.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/33.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/34.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/35.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/36.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/37.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/38.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/39.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/40.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/41.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (125).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (126).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (128).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (129).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (131).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (132).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (133).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (136).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (34).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (35).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (36).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (38).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (40).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (41).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (43).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (44).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (46).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (50).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (56).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (58).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (62).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (65).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (70).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (72).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (73).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (75).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrt (76).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrtina (1).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrtina (11).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrtina (15).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrtina (16).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrtina (2).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrtina (3).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrtina (4).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrtina (5).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrtina (6).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrtina (8).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze4/cetvrtina (9).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze8/1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze8/10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze8/11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze8/12.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze8/13.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze8/14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze8/15.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze8/17.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze8/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze8/3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze8/5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze8/7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze8/8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/train_data1/pauze8/9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/playNotes.py" afterPath="$PROJECT_DIR$/playNotes.py" />
+      <change beforePath="$PROJECT_DIR$/recognize.py" afterPath="$PROJECT_DIR$/recognize.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -698,20 +45,8 @@
       <file leaf-file-name="nn_setup_value.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nn_setup_value.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nn_setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nn_setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="172" column="23" lean-forward="false" selection-start-line="172" selection-start-column="23" selection-end-line="172" selection-end-column="23" />
+            <state relative-caret-position="-81">
+              <caret line="93" column="24" lean-forward="false" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -720,8 +55,8 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+            <state relative-caret-position="446">
+              <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -729,21 +64,83 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="threading.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python35/Lib/threading.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python35/Lib/tkinter/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="869" column="65" lean-forward="true" selection-start-line="869" selection-start-column="65" selection-end-line="869" selection-end-column="65" />
+            <state relative-caret-position="110">
+              <caret line="413" column="0" lean-forward="false" selection-start-line="413" selection-start-column="0" selection-end-line="413" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python35/envs/Lib/site-packages/keras/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="118">
+              <caret line="552" column="0" lean-forward="false" selection-start-line="552" selection-start-column="0" selection-end-line="552" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nn_setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nn_setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="170" column="8" lean-forward="false" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Image.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python35/envs/Lib/site-packages/PIL/Image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="2584" column="0" lean-forward="false" selection-start-line="2584" selection-start-column="0" selection-end-line="2584" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python35/envs/Lib/site-packages/keras/preprocessing/image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="348" column="0" lean-forward="false" selection-start-line="348" selection-start-column="0" selection-end-line="348" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playNotes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playNotes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="makeSound.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/makeSound.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recognize.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recognize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="143" column="8" lean-forward="false" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -765,6 +162,7 @@
       <find>14</find>
       <find>processAndPerform</find>
       <find>Couldn't open</find>
+      <find>add</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -775,12 +173,12 @@
       <list>
         <option value="$PROJECT_DIR$/MakeSound.py" />
         <option value="$PROJECT_DIR$/makeSound.py" />
-        <option value="$PROJECT_DIR$/playNotes.py" />
         <option value="$PROJECT_DIR$/a.py" />
-        <option value="$PROJECT_DIR$/recognize.py" />
-        <option value="$PROJECT_DIR$/nn_setup.py" />
-        <option value="$PROJECT_DIR$/nn_setup_value.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/nn_setup_value.py" />
+        <option value="$PROJECT_DIR$/recognize.py" />
+        <option value="$PROJECT_DIR$/playNotes.py" />
+        <option value="$PROJECT_DIR$/nn_setup.py" />
         <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
@@ -1154,25 +552,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1522694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15080526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39936608" sideWeight="0.38360175" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39936608" sideWeight="0.3909224" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.48958334" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31537244" sideWeight="0.56661785" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37242472" sideWeight="0.5549048" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39936608" sideWeight="0.6163982" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39936608" sideWeight="0.6090776" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1219,8 +616,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/app.py</url>
-          <line>141</line>
-          <option name="timeStamp" value="34" />
+          <line>145</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nn_setup.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1233,26 +635,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_data/H4/nota55.bmp" />
-    <entry file="file://$PROJECT_DIR$/train_data/violin_key/nota303.bmp">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/SoftProjekat-master/ProjekatSoft/ann_functions.py" />
-    <entry file="file://$USER_HOME$/Desktop/SoftProjekat-master/ProjekatSoft/ann.py" />
-    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/engine/training.py" />
-    <entry file="file://$PROJECT_DIR$/images/predict/pause1-8.png" />
-    <entry file="file://$PROJECT_DIR$/images/predict/pause1-4.png" />
-    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/legacy/interfaces.py" />
-    <entry file="file://$PROJECT_DIR$/major-scale.mid" />
-    <entry file="file://C:/Python35/envs/Lib/site-packages/midiutil/MidiFile.py" />
-    <entry file="file://$PROJECT_DIR$/makeSound.py" />
     <entry file="file://$PROJECT_DIR$/train_data/1-1pause/note_177.png" />
     <entry file="file://$PROJECT_DIR$/test_data/1-1pause/note_185.png" />
     <entry file="file://$PROJECT_DIR$/test_data/1-2pause/note_170.png" />
@@ -1263,11 +650,6 @@
     <entry file="file://$PROJECT_DIR$/test_data/1-16pause/note_279.png" />
     <entry file="file://$PROJECT_DIR$/test_data/1-16pause/note_234.png" />
     <entry file="file://$PROJECT_DIR$/a.py" />
-    <entry file="file://$PROJECT_DIR$/bitwtest.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/predict/h3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1342,27 +724,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recognize.py">
+    <entry file="file://C:/Python35/envs/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="126" column="66" lean-forward="false" selection-start-line="126" selection-start-column="66" selection-end-line="126" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playNotes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17017">
-          <caret line="1024" column="0" lean-forward="false" selection-start-line="1024" selection-start-column="0" selection-end-line="1024" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="118">
+          <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1371,36 +736,98 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://C:/Python35/envs/Lib/ntpath.py">
+    <entry file="file://C:/Python35/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="861" column="0" lean-forward="false" selection-start-line="861" selection-start-column="0" selection-end-line="861" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nn_setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="172" column="23" lean-forward="false" selection-start-line="172" selection-start-column="23" selection-end-line="172" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nn_setup_value.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="59">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/notes/nota15.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/notes/nota17.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/notes/nota18.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/notes/nota16.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/notes/nota20.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/envs/Lib/site-packages/midiutil/MidiFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="909" column="0" lean-forward="false" selection-start-line="909" selection-start-column="0" selection-end-line="909" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recognize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="143" column="8" lean-forward="false" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/notes/nota8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/notes/nota0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitwtest.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/preprocessing/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="348" column="0" lean-forward="false" selection-start-line="348" selection-start-column="0" selection-end-line="348" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/envs/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="2584" column="0" lean-forward="false" selection-start-line="2584" selection-start-column="0" selection-end-line="2584" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makeSound.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1408,23 +835,49 @@
     <entry file="file://C:/Python35/Lib/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="2438" column="0" lean-forward="false" selection-start-line="2438" selection-start-column="0" selection-end-line="2438" selection-end-column="0" />
+          <caret line="413" column="0" lean-forward="false" selection-start-line="413" selection-start-column="0" selection-end-line="413" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python35/Lib/threading.py">
+    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="869" column="65" lean-forward="true" selection-start-line="869" selection-start-column="65" selection-end-line="869" selection-end-column="65" />
+        <state relative-caret-position="118">
+          <caret line="552" column="0" lean-forward="false" selection-start-line="552" selection-start-column="0" selection-end-line="552" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nn_setup_value.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="93" column="24" lean-forward="false" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nn_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="170" column="8" lean-forward="false" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playNotes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        <state relative-caret-position="446">
+          <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

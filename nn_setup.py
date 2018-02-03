@@ -162,7 +162,7 @@ class CNNValue():
         class_mode = 'categorical')
 
         model.fit_generator(training_set,
-        steps_per_epoch = 1562 ,
+        steps_per_epoch = 1563 ,
         epochs = 2,
         validation_data = test_set,
         validation_steps = 364 )
@@ -170,11 +170,11 @@ class CNNValue():
 
     def checkNote(path):
         model = CNNValue.model
-        img = cv2.imread(path)
+        img = cv2.imread(path, 0)
         gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         img = cv2.bitwise_not(gray_image)
         cv2.imwrite('bitwtest.png', img)
-        test_image = load_img('bitwtest.png', target_size=(70, 30))
+        test_image = load_img('bitwtest.png')
         test_image = img_to_array(test_image)
         test_image = np.expand_dims(test_image, axis=0)
         result = model.predict(test_image)
@@ -246,6 +246,7 @@ class CNNValue():
             resMax = result[0][16]
             pred = 'violinski kljuc'
         print (resMax, pred)
+        return pred
 
     # checkNote('images/predict/a4_test.png')
     # checkNote('images/predict/vkljuc_test.png')
