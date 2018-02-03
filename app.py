@@ -48,9 +48,38 @@ def __init__():
 
     def neuralDuration():
         cnnd = CNNDuraiton.__init__()
+       # CNNDuraiton.checkLength('images/predict/1-2.png')
+        # dodato
         CNNDuraiton.checkLength('images/predict/1-2.png')
+        print('---should be n1-2---')
+        CNNDuraiton.checkLength('images/predict/1-16.png')
+        print('---should be n1-16---')
+        CNNDuraiton.checkLength('images/predict/a3.jpg')
+        print('---should be n1-2---')
+        CNNDuraiton.checkLength('images/predict/a4_test.png')
+        print('---should be n1-8---')
+        CNNDuraiton.checkLength('images/predict/cela_pauza.png')
+        print('---should be p1-1---')
+        CNNDuraiton.checkLength('images/predict/cetvrtina_pauze.png')
+        print('---should be p1-4---')
+        CNNDuraiton.checkLength('images/predict/d4.png')
+        print('---should be n1-4---')
+        CNNDuraiton.checkLength('images/predict/len1-4.png')
+        print('---should be n1-4---')
+        CNNDuraiton.checkLength('images/predict/osmina_pauze.png')
+        print('---should be p1-8---')
+        CNNDuraiton.checkLength('images/predict/pause1-2.png')
+        print('---should be p1-2---')
+        CNNDuraiton.checkLength('images/predict/pause1-4.png')
+        print('---should be p1-4---')
+        CNNDuraiton.checkLength('images/predict/pola_pauze.png')
+        print('---should be p1-2---')
         cnnv = CNNValue.__init__()
         CNNValue.checkNote('images/predict/1-2.png')
+
+
+
+
         MyDialog.quit()
 
 
