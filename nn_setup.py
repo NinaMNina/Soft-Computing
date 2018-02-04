@@ -251,6 +251,7 @@ class CNNValue():
         #print (resMax, pred)
         return pred
 
+
     # checkNote('images/predict/a4_test.png')
     # checkNote('images/predict/vkljuc_test.png')
     # checkNote('images/predict/taktica.png')

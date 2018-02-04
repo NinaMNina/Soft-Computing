@@ -75,6 +75,7 @@ class CNNDuraiton():
         test_image = np.expand_dims(test_image, axis=0)
         result = model.predict(test_image)
 
+
         #print (result)
         resMax = result[0][0]
         pred = 'n1-1'
