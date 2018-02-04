@@ -110,8 +110,8 @@ class MainFrame():
     def processAndPerform(self):
         if MainFrame.path=="":
             return
-        print("making a melody")
         melody = PlayNotes()
+        print("making a melody")
 
     def neuralDuration(self):
         cnnd = CNNDuraiton.__init__()

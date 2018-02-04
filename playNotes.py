@@ -78,14 +78,14 @@ class PlayNotes():
         time = 0
         tempo = 120
         duration1 = 4
-        volume = 100
+        volume = 0
         MyMIDI = MIDIFile(1)
         MyMIDI.addTempo(track, time, tempo)
         length = len(degrees)
         for i in range(length):
             MyMIDI.addNote(track, channel, degrees[i], time, duration1, volume)
             time = time + duration[i]
-
+            volume = volume + 2
         with open("major-scale.mid", "wb") as output_file:
             MyMIDI.writeFile(output_file)
 
