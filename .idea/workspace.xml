@@ -1,37 +1,593 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="505030e8-64b3-478d-9553-54749eec170f" name="Default" comment="povezana obuka neuronskih mreza na dugme">
+    <list default="true" id="505030e8-64b3-478d-9553-54749eec170f" name="Default" comment="sve ok">
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota22.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota23.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota25.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota26.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota27.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota28.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota29.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota30.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota31.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota32.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota33.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota34.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota35.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota36.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota37.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota38.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota39.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota40.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota41.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota42.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota43.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota44.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota45.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota46.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota47.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota48.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota49.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/notes/nota50.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nnsetup.h5" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nnsetupvalue.h5" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/19.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/20.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/22.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/23.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/25.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/27.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/28.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/29.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/31.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/32.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/33.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/34.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/35.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/40.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/41.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/43.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/44.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note1/9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/102.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/104.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/105.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/106.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/107.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/108.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/109.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/110.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/112.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/113.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/69.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/70.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/72.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/73.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/74.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/75.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/76.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/77.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/78.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/79.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/80.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/81.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/82.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/86.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/88(1).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/95.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/99.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/S10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/S11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/S12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/S7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/S8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/S9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/s.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/s2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/s3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/s4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/s5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/s6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (11).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (13).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (15).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (16).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (17).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (18).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (20).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (25).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (26).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (27).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (29).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (30).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (31).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (32).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (34).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (35).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (36).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (37).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (39).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (40).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (41).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (43).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (44).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (45).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (46).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (48).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (49).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (50).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (52).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (53).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (54).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (55).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (57).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (58).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (59).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (60).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (61).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (62).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (63).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (64).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (65).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (66).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (67).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (68).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (69).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (70).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (71).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (72).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (73).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (74).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (75).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (76).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (77).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (78).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (79).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (80).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (81).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (82).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (83).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (85).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (86).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (87).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (88).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (90).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (91).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (92).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (93).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (94).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/te (95).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/tes (1).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/tes (14).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/tes (16).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/tes (28).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/tes (29).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/tes (3).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/tes (30).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/tes (31).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/tes (4).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note16/tes (6).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/18.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/20.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/22.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/23.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (1).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (10).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (11).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (12).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (13).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (14).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (15).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (16).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (17).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (18).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (19).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (2).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (20).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (21).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (22).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (23).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (24).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (25).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (26).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (27).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (28).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (29).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (3).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (30).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (31).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (32).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (33).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (34).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (35).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (36).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (37).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (38).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (39).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (4).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (40).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (41).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (42).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (43).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (44).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (45).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (46).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (47).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (48).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (49).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (5).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (50).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (51).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (52).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (53).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (54).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (55).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (56).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (57).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (58).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (59).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (6).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (60).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (61).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (62).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (63).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (64).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (65).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (66).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (67).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (68).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (69).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (7).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (70).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (71).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (72).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (73).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (74).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (75).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (76).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (77).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (78).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (79).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (8).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (80).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (81).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (82).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (83).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (84).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (85).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (86).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (87).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (88).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note2/pol (9).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/28.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/29.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/30.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/31.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/32.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/33.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/35.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/36.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/37.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/40.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/41.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/42.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/44.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/45.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/46.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/47.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/48.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note4/9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/50.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/52.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/56.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/60.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/61.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/62.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/64.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/65.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/66.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/73.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/74.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/76.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/77.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/78.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/79.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/80.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/81.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/83.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/84.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/85.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/86.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/87.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/90.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/92.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/93.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/e (2).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/e (3).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/o.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/o2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/o3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/o4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/o5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osm (25).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osm (27).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osm (28).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osm (29).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osm (30).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osm (31).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osm (32).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osm (37).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osm (49).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osm (57).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osm (58).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osm (60).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osm (61).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (100).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (101).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (102).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (105).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (110).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (111).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (122).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (28).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (29).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (30).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (31).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (32).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (33).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (34).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (35).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (36).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (37).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (38).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (39).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (41).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (42).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (43).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (44).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (46).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (47).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (52).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (53).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (57).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (58).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (71).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (72).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (73).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (74).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (75).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (76).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (78).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (79).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (80).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (81).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (82).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (83).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (84).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (85).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (87).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (88).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/note8/osmine (92).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (14).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (18).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (2).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (24).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (26).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (27).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (3).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (32).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (34).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (35).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (37).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (38).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (4).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (47).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (49).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (60).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (64).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (72).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (74).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (77).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (78).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (8).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze1/cele (83).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/27.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/30.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/53.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p18.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p19.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p20.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p22.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p23.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p25.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p26.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p27.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p28.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p29.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/p9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (1).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (10).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (12).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (13).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (15).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (16).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (17).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (18).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (19).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (20).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (21).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (22).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (24).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (25).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (27).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (28).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (29).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (3).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (30).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (31).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (4).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (5).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (51).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (52).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (53).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (54).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (55).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (56).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (57).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (58).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (6).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (60).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (61).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (7).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (8).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze16/sesnaest (9).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze2/pola (38).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze2/pola (50).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze2/pola (53).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze2/pola (56).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze2/polovine (11).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze2/polovine (12).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze2/polovine (14).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze2/polovine (15).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze2/polovine (17).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze2/polovine (18).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze2/polovine (7).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze2/polovine (8).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze4/P1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze4/P2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze4/P3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze4/P4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze4/P5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze4/p10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze4/p11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze4/p12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze4/p6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze4/p7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze4/p8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze4/p9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/o9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (1).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (10).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (11).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (12).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (13).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (14).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (16).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (17).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (19).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (20).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (21).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (22).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (24).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (25).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (26).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (29).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (31).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (33).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (34).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (35).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (36).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (38).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (4).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (5).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (68).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (69).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (70).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (71).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (72).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (8).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/osmine (9).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/p17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/p18.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/p19.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/train_data1/pauze8/p20.png" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/soft.iml" afterPath="$PROJECT_DIR$/.idea/soft.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
       <change beforePath="$PROJECT_DIR$/bitwtest.png" afterPath="$PROJECT_DIR$/bitwtest.png" />
       <change beforePath="$PROJECT_DIR$/images/Thumbs.db" afterPath="$PROJECT_DIR$/images/Thumbs.db" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota0.png" afterPath="$PROJECT_DIR$/images/notes/nota0.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota1.png" afterPath="$PROJECT_DIR$/images/notes/nota1.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota10.png" afterPath="$PROJECT_DIR$/images/notes/nota10.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota11.png" afterPath="$PROJECT_DIR$/images/notes/nota11.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota12.png" afterPath="$PROJECT_DIR$/images/notes/nota12.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota13.png" afterPath="$PROJECT_DIR$/images/notes/nota13.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota14.png" afterPath="$PROJECT_DIR$/images/notes/nota14.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota15.png" afterPath="$PROJECT_DIR$/images/notes/nota15.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota16.png" afterPath="$PROJECT_DIR$/images/notes/nota16.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota17.png" afterPath="$PROJECT_DIR$/images/notes/nota17.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota18.png" afterPath="$PROJECT_DIR$/images/notes/nota18.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota19.png" afterPath="$PROJECT_DIR$/images/notes/nota19.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota2.png" afterPath="$PROJECT_DIR$/images/notes/nota2.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota20.png" afterPath="$PROJECT_DIR$/images/notes/nota20.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota3.png" afterPath="$PROJECT_DIR$/images/notes/nota3.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota4.png" afterPath="$PROJECT_DIR$/images/notes/nota4.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota5.png" afterPath="$PROJECT_DIR$/images/notes/nota5.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota6.png" afterPath="$PROJECT_DIR$/images/notes/nota6.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota7.png" afterPath="$PROJECT_DIR$/images/notes/nota7.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota8.png" afterPath="$PROJECT_DIR$/images/notes/nota8.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota9.png" afterPath="$PROJECT_DIR$/images/notes/nota9.png" />
       <change beforePath="$PROJECT_DIR$/images/predict/Thumbs.db" afterPath="$PROJECT_DIR$/images/predict/Thumbs.db" />
+      <change beforePath="$PROJECT_DIR$/major-scale.mid" afterPath="$PROJECT_DIR$/major-scale.mid" />
       <change beforePath="$PROJECT_DIR$/nn_setup.py" afterPath="$PROJECT_DIR$/nn_setup.py" />
       <change beforePath="$PROJECT_DIR$/nn_setup_value.py" afterPath="$PROJECT_DIR$/nn_setup_value.py" />
       <change beforePath="$PROJECT_DIR$/playNotes.py" afterPath="$PROJECT_DIR$/playNotes.py" />
-      <change beforePath="$PROJECT_DIR$/recognize.py" afterPath="$PROJECT_DIR$/recognize.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,21 +598,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="nn_setup_value.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nn_setup_value.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nn_setup_value.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
-              <caret line="93" column="24" lean-forward="false" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="494">
+              <caret line="107" column="9" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+            <state relative-caret-position="-18">
+              <caret line="113" column="28" lean-forward="true" selection-start-line="113" selection-start-column="28" selection-end-line="113" selection-end-column="28" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -64,61 +622,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python35/Lib/tkinter/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="413" column="0" lean-forward="false" selection-start-line="413" selection-start-column="0" selection-end-line="413" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python35/envs/Lib/site-packages/keras/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="552" column="0" lean-forward="false" selection-start-line="552" selection-start-column="0" selection-end-line="552" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nn_setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nn_setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="170" column="8" lean-forward="false" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Image.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python35/envs/Lib/site-packages/PIL/Image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="2584" column="0" lean-forward="false" selection-start-line="2584" selection-start-column="0" selection-end-line="2584" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python35/envs/Lib/site-packages/keras/preprocessing/image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="348" column="0" lean-forward="false" selection-start-line="348" selection-start-column="0" selection-end-line="348" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="playNotes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playNotes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="42">
+              <caret line="80" column="20" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -126,11 +634,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MidiFile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/midiutil/MidiFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="586" column="0" lean-forward="false" selection-start-line="586" selection-start-column="0" selection-end-line="586" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ops.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/ops.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="makeSound.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/makeSound.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="190">
+              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -139,9 +664,21 @@
       <file leaf-file-name="recognize.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recognize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="2679">
               <caret line="143" column="8" lean-forward="false" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nn_setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nn_setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="250" column="9" lean-forward="false" selection-start-line="250" selection-start-column="9" selection-end-line="250" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,6 +700,7 @@
       <find>processAndPerform</find>
       <find>Couldn't open</find>
       <find>add</find>
+      <find>target</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,11 +713,11 @@
         <option value="$PROJECT_DIR$/makeSound.py" />
         <option value="$PROJECT_DIR$/a.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/nn_setup_value.py" />
         <option value="$PROJECT_DIR$/recognize.py" />
-        <option value="$PROJECT_DIR$/playNotes.py" />
+        <option value="$PROJECT_DIR$/nn_setup_value.py" />
         <option value="$PROJECT_DIR$/nn_setup.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/playNotes.py" />
       </list>
     </option>
   </component>
@@ -205,6 +743,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,12 +752,15 @@
               <item name="soft" type="b2602c69:ProjectViewProjectNode" />
               <item name="Soft-Computing" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="soft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Soft-Computing" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -551,25 +1094,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15080526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15052083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39936608" sideWeight="0.3909224" order="15" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33922997" sideWeight="0.24322917" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.48958334" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37242472" sideWeight="0.5549048" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33922997" sideWeight="0.75677085" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39936608" sideWeight="0.6090776" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39936608" sideWeight="0.6090776" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -613,18 +1156,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app.py</url>
-          <line>145</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/nn_setup.py</url>
-          <line>175</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -640,7 +1171,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/train_data/1-1pause/note_177.png" />
     <entry file="file://$PROJECT_DIR$/test_data/1-1pause/note_185.png" />
     <entry file="file://$PROJECT_DIR$/test_data/1-2pause/note_170.png" />
     <entry file="file://$PROJECT_DIR$/test_data/1-8pause/note_184.png" />
@@ -666,11 +1196,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/predict/vkljuc_test.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/ops.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -724,31 +1249,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://C:/Python35/envs/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python35/envs/Lib/ntpath.py" />
     <entry file="file://$PROJECT_DIR$/images/predict/1-2.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://C:/Python35/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="861" column="0" lean-forward="false" selection-start-line="861" selection-start-column="0" selection-end-line="861" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python35/Lib/threading.py" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,17 +1288,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://C:/Python35/envs/Lib/site-packages/midiutil/MidiFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="909" column="0" lean-forward="false" selection-start-line="909" selection-start-column="0" selection-end-line="909" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python35/envs/Lib/site-packages/midiutil/MidiFile.py" />
     <entry file="file://$PROJECT_DIR$/recognize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="2679">
           <caret line="143" column="8" lean-forward="false" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
           <folding />
         </state>
@@ -803,83 +1307,72 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/preprocessing/image.py" />
+    <entry file="file://C:/Python35/envs/Lib/site-packages/PIL/Image.py" />
+    <entry file="file://C:/Python35/Lib/tkinter/__init__.py" />
+    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/models.py" />
     <entry file="file://$PROJECT_DIR$/bitwtest.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/preprocessing/image.py">
+    <entry file="file://$PROJECT_DIR$/nn_setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="348" column="0" lean-forward="false" selection-start-line="348" selection-start-column="0" selection-end-line="348" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="372">
+          <caret line="250" column="9" lean-forward="false" selection-start-line="250" selection-start-column="9" selection-end-line="250" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python35/envs/Lib/site-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="2584" column="0" lean-forward="false" selection-start-line="2584" selection-start-column="0" selection-end-line="2584" selection-end-column="0" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/images/ops.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/makeSound.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="190">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python35/Lib/tkinter/__init__.py">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="413" column="0" lean-forward="false" selection-start-line="413" selection-start-column="0" selection-end-line="413" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-18">
+          <caret line="113" column="28" lean-forward="true" selection-start-line="113" selection-start-column="28" selection-end-line="113" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python35/envs/Lib/site-packages/keras/models.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/midiutil/MidiFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="552" column="0" lean-forward="false" selection-start-line="552" selection-start-column="0" selection-end-line="552" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nn_setup_value.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="93" column="24" lean-forward="false" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nn_setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="170" column="8" lean-forward="false" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="8" />
+        <state relative-caret-position="191">
+          <caret line="586" column="0" lean-forward="false" selection-start-line="586" selection-start-column="0" selection-end-line="586" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/playNotes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="42">
+          <caret line="80" column="20" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/nn_setup_value.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+        <state relative-caret-position="494">
+          <caret line="107" column="9" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -11,7 +11,7 @@ class PlayNotes():
     def __init__(self):
         path = app.MainFrame.path
         recognize.cropNotes(path)
-
+        notenames = []
         degrees = []
         duration = []
         loc = os.getcwd()
@@ -19,65 +19,73 @@ class PlayNotes():
         print(loc)
         t = 16
         fileList = os.listdir(loc)
-        for fileName in fileList:
-            path0 = loc+'/'+fileName
+        duzina = len(fileList)
+
+        for a in range(duzina):
+            path0 = loc +'/nota' + str(a) + '.png'
             note_name = CNNValue.checkNote(path0)
-            if note_name!="taktica" or note_name!="violinski kljuc":
-                if note_name=='a3':
-                    degrees.append(57)
-                elif note_name=='a4':
-                    degrees.append(69)
-                elif note_name=='c4':
-                    degrees.append(60)
-                elif note_name=='c5':
-                    degrees.append(72)
-                elif note_name=='d4':
-                    degrees.append(62)
-                elif note_name=='d5':
-                    degrees.append(74)
-                elif note_name=='e4':
-                    degrees.append(64)
-                elif note_name=='e5':
-                    degrees.append(76)
-                elif note_name=='f4':
-                    degrees.append(65)
-                elif note_name=='f5':
-                    degrees.append(77)
-                elif note_name=='g4':
-                    degrees.append(67)
-                elif note_name=='g5':
-                    degrees.append(79)
-                elif note_name=='h3':
-                    degrees.append(59)
-                else:
-                    degrees.append(71)
+            notenames.append(note_name)
+            if note_name=='a3':
+                degrees.append(57)
+            elif note_name=='a4':
+                degrees.append(69)
+            elif note_name=='c4':
+                degrees.append(60)
+            elif note_name=='c5':
+                degrees.append(72)
+            elif note_name=='d4':
+                degrees.append(62)
+            elif note_name=='d5':
+                degrees.append(74)
+            elif note_name=='e4':
+                degrees.append(64)
+            elif note_name=='e5':
+                degrees.append(76)
+            elif note_name=='f4':
+                degrees.append(65)
+            elif note_name=='f5':
+                degrees.append(77)
+            elif note_name=='g4':
+                degrees.append(67)
+            elif note_name=='g5':
+                degrees.append(79)
+            elif note_name=='h3':
+                degrees.append(59)
+            elif note_name=='h4':
+                degrees.append(71)
+            else:
+                degrees.append(0)
 
-                note_duration = CNNDuraiton.checkLength(path0)
+            note_duration = CNNDuraiton.checkLength(path0)
 
-                if note_duration=="n1-1" or note_duration=="p1-1":
-                    duration.append(t)
-                elif note_duration=="n1-2" or note_duration=="p1-2":
-                    duration.append(t/2)
-                elif note_duration=="n1-4" or note_duration=="p1-4":
-                    duration.append(t/4)
-                elif note_duration=="n1-8" or note_duration=="p1-8":
-                    duration.append(t/8)
-                else:
-                    duration.append(t/16)
+            if note_duration=="n1-1" or note_duration=="p1-1":
+                duration.append(t)
+            elif note_duration=="n1-2" or note_duration=="p1-2":
+                duration.append(t/2)
+            elif note_duration=="n1-4" or note_duration=="p1-4":
+                duration.append(t/4)
+            elif note_duration=="n1-8" or note_duration=="p1-8":
+                duration.append(t/8)
+            elif note_duration=="n1-16" or note_duration=="p1-16":
+                duration.append(t/16)
+            else:
+                duration.append(0)
 
+
+        print (notenames)
         track = 0
         channel = 0
         time = 0
-        duration = 4
         tempo = 120
-        volume = 15
+        duration1 = 4
+        volume = 100
         MyMIDI = MIDIFile(1)
         MyMIDI.addTempo(track, time, tempo)
         length = len(degrees)
-        for i in length:
-            MyMIDI.addNote(track, channel, degrees[i], time, duration, volume)
+        for i in range(length):
+            MyMIDI.addNote(track, channel, degrees[i], time, duration1, volume)
             time = time + duration[i]
-            volume = volume + 15
+
         with open("major-scale.mid", "wb") as output_file:
             MyMIDI.writeFile(output_file)
 

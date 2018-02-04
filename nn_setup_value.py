@@ -7,30 +7,30 @@ from keras.layers import MaxPooling2D, Activation, Dropout
 # Importing the Keras libraries and packages
 from keras.models import Sequential
 from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
+from keras.layers.normalization import BatchNormalization
+from keras.layers.advanced_activations import LeakyReLU
+from keras.models import load_model
+
+
+
 class CNNDuraiton():
     model = Sequential()
     def __init__():
         nClasses = 10
 
         model = Sequential()
-        model.add(Conv2D(32, (3, 3), padding='same', activation='relu', input_shape=(70, 30, 3)))
-        model.add(Conv2D(32, (3, 3), activation='relu'))
-        model.add(MaxPooling2D(pool_size=(2, 2)))
-        model.add(Dropout(0.25))
-
-        model.add(Conv2D(64, (3, 3), padding='same', activation='relu'))
-        model.add(Conv2D(64, (3, 3), activation='relu'))
-        model.add(MaxPooling2D(pool_size=(2, 2)))
-        model.add(Dropout(0.25))
-
-        # model.add(Conv2D(64, (3, 3), padding='same', activation='relu'))
-        # model.add(Conv2D(64, (3, 3), activation='relu'))
-        # model.add(MaxPooling2D(pool_size=(2, 2)))
-        # model.add(Dropout(0.25))
-
+        model.add(Conv2D(32, kernel_size=(3, 3), activation='linear', input_shape=(70, 30, 3), padding='same'))
+        model.add(LeakyReLU(alpha=0.1))
+        model.add(MaxPooling2D((2, 2), padding='same'))
+        model.add(Conv2D(64, (3, 3), activation='linear', padding='same'))
+        model.add(LeakyReLU(alpha=0.1))
+        model.add(MaxPooling2D(pool_size=(2, 2), padding='same'))
+        model.add(Conv2D(128, (3, 3), activation='linear', padding='same'))
+        model.add(LeakyReLU(alpha=0.1))
+        model.add(MaxPooling2D(pool_size=(2, 2), padding='same'))
         model.add(Flatten())
-        model.add(Dense(512, activation='relu'))
-        model.add(Dropout(0.5))
+        model.add(Dense(512, activation='linear'))
+        model.add(LeakyReLU(alpha=0.1))
         model.add(Dense(nClasses, activation='softmax'))
 
         model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['accuracy'])
@@ -59,12 +59,13 @@ class CNNDuraiton():
         steps_per_epoch = 1460,
         epochs = 2,
         validation_data = test_set,
-        validation_steps = 471)
+        validation_steps = 300)
         CNNDuraiton.model = model
 
+        model.save('nnsetupvalue.h5')
 
     def checkLength(path):
-        model = CNNDuraiton.model
+        model = model = load_model('nnsetupvalue.h5')
         img = cv2.imread(path)
         gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         img = cv2.bitwise_not(gray_image)
@@ -74,7 +75,7 @@ class CNNDuraiton():
         test_image = np.expand_dims(test_image, axis=0)
         result = model.predict(test_image)
 
-        print (result)
+        #print (result)
         resMax = result[0][0]
         pred = 'n1-1'
         if resMax < result[0][1]:
@@ -104,7 +105,7 @@ class CNNDuraiton():
         if resMax < result[0][9]:
             resMax = result[0][9]
             pred = 'p1-8'
-        print (resMax, pred)
+        #print (resMax, pred)
         return pred
 
 # Part 3 - Making new predictions

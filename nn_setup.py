@@ -7,6 +7,7 @@ from keras.layers import MaxPooling2D, Activation, Dropout
 # Importing the Keras libraries and packages
 from keras.models import Sequential
 from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
+from keras.models import load_model
 
 # batch_size = 32
 # img = load_img('images/train/nota1.bmp')  # this is a PIL image
@@ -168,18 +169,20 @@ class CNNValue():
         validation_steps = 364 )
         CNNValue.model = model
 
+        model.save('nnsetup.h5')
+
     def checkNote(path):
-        model = CNNValue.model
-        img = cv2.imread(path, 0)
+        model = load_model('nnsetup.h5')
+        img = cv2.imread(path)
         gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         img = cv2.bitwise_not(gray_image)
         cv2.imwrite('bitwtest.png', img)
-        test_image = load_img('bitwtest.png')
+        test_image = load_img('bitwtest.png', target_size=(70, 30))
         test_image = img_to_array(test_image)
         test_image = np.expand_dims(test_image, axis=0)
         result = model.predict(test_image)
 
-        print (result)
+        #print (result)
         resMax = result[0][0]
         pred = 'a3'
         # if resMax < result[0][1]:
@@ -245,7 +248,7 @@ class CNNValue():
         if resMax < result[0][16]:
             resMax = result[0][16]
             pred = 'violinski kljuc'
-        print (resMax, pred)
+        #print (resMax, pred)
         return pred
 
     # checkNote('images/predict/a4_test.png')
