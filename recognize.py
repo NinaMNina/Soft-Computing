@@ -51,6 +51,12 @@ def cropNotes(path):
                 # img.itemset((row,col, 0), 255)
     #DUZINA JE BROJ LINIJA IZ MATRICE PODELJENO SA 5 JER U SVAKOM REDU NOTNOG SISTEMA IMA PO 5 HORIZONTALNIH LINIJA
     #DOBIJAMO BROJ REDOVA TJ DELOVA KOJE TREBA ISECI I ZATIM POSEBNO OBRADITI
+    loc = os.getcwd()
+    loc += '/images/parts'
+    print(loc)
+    fileList = os.listdir(loc)
+    for fileName in fileList:
+        os.remove(loc + "/" + fileName)
     length = len(matrix) / 5
     length = int(length)
 
@@ -64,10 +70,19 @@ def cropNotes(path):
         ime += str(i)
         ime += '.png'
         cv2.imwrite(ime, lajna)
+        for col in range(img.shape[1]):
+            black=True
+            for row in range(top[0], bottom[0]):
+                if(img.item(row, col, 1) > 100):
+                    black=False
+            if(black == True):
+                img.itemset((row, col, 0), 255)
+                img.itemset((row, col, 1), 255)
+                img.itemset((row, col, 2), 255)
 
-            # cv2.imshow('lajna', lajna)
-            # cv2.waitKey(0)
-            # cv2.destroyAllWindows()
+        cv2.imshow('lajna', lajna)
+        cv2.waitKey(0)
+        cv2.destroyAllWindows()
 
     # BRISEMO STARE SLIKE AKO JE VEC RADJEN OVAJ POSTUPAK
 
@@ -123,9 +138,9 @@ def cropNotes(path):
 
             # print notes
 
-        cv2.imshow('lines', img)
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()
+        # cv2.imshow('lines', img)
+        # cv2.waitKey(0)
+        # cv2.destroyAllWindows()
 
         length1 = len(notes)
 
@@ -136,7 +151,7 @@ def cropNotes(path):
             value = notes[j]
             left = value[0]
             right = value[1]
-            notica = img[:, (left - 5):(right + 5), :]
+            notica = img[:, (left - 15):(right + 15), :]
             ime = 'images/notes/nota'
             ime += str(count)
             ime += '.png'

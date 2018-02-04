@@ -56,7 +56,10 @@ class PlayNotes():
             else:
                 degrees.append(0)
 
-            note_duration = CNNDuraiton.checkLength(path0)
+            if(note_name == "taktica" or note_name == "violinski kljuc"):
+                note_duration = '0'
+            else:
+                note_duration = CNNDuraiton.checkLength(path0)
 
             if note_duration=="n1-1" or note_duration=="p1-1":
                 duration.append(t)
@@ -70,6 +73,7 @@ class PlayNotes():
                 duration.append(t/16)
             else:
                 duration.append(0)
+            print (note_name + ' ' + note_duration)
 
 
         print (notenames)
@@ -78,14 +82,13 @@ class PlayNotes():
         time = 0
         tempo = 120
         duration1 = 4
-        volume = 0
+        volume = 100
         MyMIDI = MIDIFile(1)
         MyMIDI.addTempo(track, time, tempo)
         length = len(degrees)
         for i in range(length):
-            MyMIDI.addNote(track, channel, degrees[i], time, duration1, volume)
-            time = time + duration[i]
-            volume = volume + 2
+            MyMIDI.addNote(track, channel, degrees[i], time, duration[i], volume)
+            time = time + 1
         with open("major-scale.mid", "wb") as output_file:
             MyMIDI.writeFile(output_file)
 

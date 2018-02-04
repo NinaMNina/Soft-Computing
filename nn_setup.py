@@ -8,6 +8,9 @@ from keras.layers import MaxPooling2D, Activation, Dropout
 from keras.models import Sequential
 from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
 from keras.models import load_model
+from keras.layers.normalization import BatchNormalization
+from keras.layers.advanced_activations import LeakyReLU
+
 
 # batch_size = 32
 # img = load_img('images/train/nota1.bmp')  # this is a PIL image
@@ -118,24 +121,18 @@ class CNNValue():
         nClasses = 17
 
         model = Sequential()
-        model.add(Conv2D(32, (3, 3), padding='same', activation='relu', input_shape=(70,30,3)))
-        #model.add(Conv2D(32, (3, 3), activation='relu'))
-        model.add(MaxPooling2D(pool_size=(2, 2)))
-        model.add(Dropout(0.25))
-
-        model.add(Conv2D(64, (3, 3), padding='same', activation='relu'))
-        #model.add(Conv2D(64, (3, 3), activation='relu'))
-        model.add(MaxPooling2D(pool_size=(2, 2)))
-        model.add(Dropout(0.25))
-
-        # model.add(Conv2D(64, (3, 3), padding='same', activation='relu'))
-        # model.add(Conv2D(64, (3, 3), activation='relu'))
-        # model.add(MaxPooling2D(pool_size=(2, 2)))
-        # model.add(Dropout(0.25))
-
+        model.add(Conv2D(32, kernel_size=(3, 3), activation='linear', input_shape=(70, 30, 3), padding='same'))
+        model.add(LeakyReLU(alpha=0.1))
+        model.add(MaxPooling2D((2, 2), padding='same'))
+        model.add(Conv2D(64, (3, 3), activation='linear', padding='same'))
+        model.add(LeakyReLU(alpha=0.1))
+        model.add(MaxPooling2D(pool_size=(2, 2), padding='same'))
+        model.add(Conv2D(128, (3, 3), activation='linear', padding='same'))
+        model.add(LeakyReLU(alpha=0.1))
+        model.add(MaxPooling2D(pool_size=(2, 2), padding='same'))
         model.add(Flatten())
-        model.add(Dense(512, activation='relu'))
-        model.add(Dropout(0.5))
+        model.add(Dense(512, activation='linear'))
+        model.add(LeakyReLU(alpha=0.1))
         model.add(Dense(nClasses, activation='softmax'))
 
         model.compile(optimizer = 'rmsprop', loss = 'categorical_crossentropy', metrics = ['accuracy'])
