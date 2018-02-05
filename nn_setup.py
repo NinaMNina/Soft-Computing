@@ -116,7 +116,7 @@ from keras.layers.advanced_activations import LeakyReLU
 #
 # print result
 class CNNValue():
-    model = Sequential()
+    model = load_model('nnsetup.h5')
     def __init__():
         nClasses = 17
 
@@ -160,16 +160,17 @@ class CNNValue():
         class_mode = 'categorical')
 
         model.fit_generator(training_set,
-        steps_per_epoch = 1563 ,
+        steps_per_epoch = 1562 ,
         epochs = 2,
         validation_data = test_set,
-        validation_steps = 364 )
-        CNNValue.model = model
+        validation_steps = 364)
+        #CNNValue.model = model
 
         model.save('nnsetup.h5')
-
-    def checkNote(path):
-        model = load_model('nnsetup.h5')
+    def reloadModel(self):
+        CNNValue.model = load_model('nnsetup.h5')
+    def checkNote(self, path):
+        model = CNNValue.model
         img = cv2.imread(path)
         gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         img = cv2.bitwise_not(gray_image)

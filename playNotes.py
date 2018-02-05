@@ -11,6 +11,8 @@ class PlayNotes():
     def __init__(self):
         path = app.MainFrame.path
         recognize.cropNotes(path)
+        CNNValue.reloadModel()
+        CNNDuraiton.reloadModel()
         notenames = []
         degrees = []
         duration = []

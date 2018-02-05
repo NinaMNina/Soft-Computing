@@ -19,7 +19,7 @@ class MainFrame():
         self.root = tk.Tk()
 
         self.root.title('TNotes - Music Note Recognition')
-        self.root.geometry("700x500")
+        self.root.geometry("700x700")
 
         self.root.iconbitmap(cwd+'/images/icon.ico')
 
@@ -56,11 +56,11 @@ class MainFrame():
         labelEmpty = Label(labelF, text="")
         labelEmpty.grid(row=6, column=0)
 
-        imgCanvas = Canvas(labelF, width=500, height=200)
-        imgCanvas.grid(row=7, column=0, columnspan=4, rowspan=5)
+        self.imgCanvas = Canvas(labelF, width=700, height=600)
+        self.imgCanvas.grid(row=7, column=0, columnspan=4, rowspan=5)
         path = cwd+'/images/cover.gif'
         img = PhotoImage(file=path)
-        imgCanvas.create_image(0, 0, image=img, anchor="nw" )
+        self.imgCanvas.create_image(0, 0, image=img, anchor="nw" )
 
         mainloop()
 
@@ -76,26 +76,25 @@ class MainFrame():
         t1.start()
 
     def appDialog(self):
-        self.top = Toplevel(self.root)
-        self.top.title("Convolution Neural Network is in training...")
-        cwd = os.getcwd()
-        self.top.iconbitmap(cwd + '/images/icon.ico')
-        self.canvas = Canvas(self.top, width=400, height=400)
-        self.top.protocol("WM_DELETE_WINDOW", self.disable_event)
-        self.canvas.pack()
-        self.alien1 = self.canvas.create_oval(20, 260, 120, 360, outline='white', fill='blue')
-        self.alien2 = self.canvas.create_oval(2, 2, 40, 40, outline='white', fill='red')
-        self.alien3 = self.canvas.create_oval(20, 20, 80, 80, outline='white', fill='white')
-        self.alien4 = self.canvas.create_oval(50, 130, 220, 300, outline='white', fill='purple')
-        self.alien5 = self.canvas.create_oval(25, 150, 100, 100, outline='white', fill='yellow')
-        self.alien6 = self.canvas.create_oval(20, 320, 120, 390, outline='white', fill='green')
-        self.canvas.pack()
-        self.param = True
-        self.top._job = self.top.after(0, self.animation)
+        # self.top = Toplevel(self.root)
+        # self.top.title("Convolution Neural Network is in training...")
+        # cwd = os.getcwd()
+        # self.top.iconbitmap(cwd + '/images/icon.ico')
+        # self.canvas = Canvas(self.top, width=400, height=400)
+        # self.top.protocol("WM_DELETE_WINDOW", self.disable_event)
+        # self.canvas.pack()
+        self.alien1 = self.imgCanvas.create_oval(50, 50, 100, 100, outline='white', fill='red')
+        # self.alien2 = self.canvas.create_oval(2, 2, 40, 40, outline='white', fill='red')
+        # self.alien3 = self.canvas.create_oval(20, 20, 80, 80, outline='white', fill='white')
+        # self.alien4 = self.canvas.create_oval(50, 130, 220, 300, outline='white', fill='purple')
+        # self.alien5 = self.canvas.create_oval(25, 150, 100, 100, outline='white', fill='yellow')
+        # self.alien6 = self.canvas.create_oval(20, 320, 120, 390, outline='white', fill='green')
+        # self.imgCanvas.pack()
+        self.root.after(0, self.animation)
 
     def addNotes(self):
         print('it wants to add some notes')
-        name = askopenfilename(initialdir="D:/", filetypes=(("JPEG File", "*.jpg"), ("PNG File", "*.png")),
+        name = askopenfilename(initialdir="D:/", filetypes=(("JPEG File", "*.jpg"), ("PNG File", "*.png"), ("GIF File", "*.gif")),
                                title="Choose an Image")
         print(name)
         # Using try in case user types in unknown file or closes without choosing a file.
@@ -104,6 +103,9 @@ class MainFrame():
             self.entry.delete(0, END)  # deletes the current value
             self.entry.insert(0, name)
             MainFrame.path = name
+            # img = PhotoImage(file=name)
+            # self.imgCanvas.delete("all")
+            # self.imgCanvas.create_image(0, 0, anchor='nw', image=img)
         except:
             print("No image exists")
 
@@ -114,7 +116,7 @@ class MainFrame():
         print("making a melody")
 
     def neuralDuration(self):
-        # cnnd = CNNDuraiton.__init__()
+        cnnd = CNNDuraiton.__init__()
         # CNNDuraiton.checkLength('images/predict/1-2.png')
         # print('---should be n1-2---')
         # CNNDuraiton.checkLength('images/predict/1-16.png')
@@ -145,39 +147,46 @@ class MainFrame():
 
         # self.param = False
         # self.top.after_cancel(self.top._job)
-        # self.threads.__delitem__(1)
+        self.threads.__delitem__(1)
+        self.alien1 = None
         # self.param = False
         # self.top.after_cancel(self.top._job)
-        # self.threads.__delitem__(0)
+        self.threads.__delitem__(0)
         # self.top.destroy()
 
     def disable_event(self):
         pass
     def animation(self):
         track = 0
-        while self.param:
+        if (self.alien1==None):
+            return
+        while True:
             x = 5
             y = 0
             if track == 0:
-                for i in range(0, 51):
+                for i in range(0, 110):
+                    if (self.alien1 == None):
+                        return
                     time.sleep(0.025)
-                    self.canvas.move(self.alien1, x, y)
-                    self.canvas.move(self.alien2, x, y)
-                    self.canvas.move(self.alien3, x, y)
-                    self.canvas.move(self.alien4, x, y)
-                    self.canvas.move(self.alien5, x, y)
-                    self.canvas.move(self.alien6, x, y)
-                    self.canvas.update()
+                    self.imgCanvas.move(self.alien1, x, y)
+                    # self.canvas.move(self.alien2, x, y)
+                    # self.canvas.move(self.alien3, x, y)
+                    # self.canvas.move(self.alien4, x, y)
+                    # self.canvas.move(self.alien5, x, y)
+                    # self.canvas.move(self.alien6, x, y)
+                    self.imgCanvas.update()
                 track = 1
 
             else:
-                for i in range(0, 51):
+                for i in range(0, 110):
+                    if (self.alien1 == None):
+                        return
                     time.sleep(0.025)
-                    self.canvas.move(self.alien1, -x, y)
-                    self.canvas.move(self.alien2, -x, y)
-                    self.canvas.move(self.alien3, -x, y)
-                    self.canvas.move(self.alien4, -x, y)
-                    self.canvas.move(self.alien5, -x, y)
-                    self.canvas.move(self.alien6, -x, y)
-                    self.canvas.update()
+                    self.imgCanvas.move(self.alien1, -x, y)
+                    # self.canvas.move(self.alien2, -x, y)
+                    # self.canvas.move(self.alien3, -x, y)
+                    # self.canvas.move(self.alien4, -x, y)
+                    # self.canvas.move(self.alien5, -x, y)
+                    # self.canvas.move(self.alien6, -x, y)
+                    self.imgCanvas.update()
                 track = 0

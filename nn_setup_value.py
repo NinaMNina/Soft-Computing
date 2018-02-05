@@ -14,7 +14,7 @@ from keras.models import load_model
 
 
 class CNNDuraiton():
-    model = Sequential()
+    model = load_model('nnsetupvalue.h5')
     def __init__():
         nClasses = 10
 
@@ -60,12 +60,13 @@ class CNNDuraiton():
         epochs = 2,
         validation_data = test_set,
         validation_steps = 300)
-        CNNDuraiton.model = model
+        #CNNDuraiton.model = model
 
         model.save('nnsetupvalue.h5')
-
-    def checkLength(path):
-        model = model = load_model('nnsetupvalue.h5')
+    def reloadModel(self):
+        CNNDuraiton.model = load_model('nnsetupvalue.h5')
+    def checkLength(self, path):
+        model  = CNNDuraiton.model
         img = cv2.imread(path)
         gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         img = cv2.bitwise_not(gray_image)

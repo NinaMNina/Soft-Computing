@@ -80,9 +80,9 @@ def cropNotes(path):
                 img.itemset((row, col, 1), 255)
                 img.itemset((row, col, 2), 255)
 
-        cv2.imshow('lajna', lajna)
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()
+        # cv2.imshow('lajna', lajna)
+        # cv2.waitKey(0)
+        # cv2.destroyAllWindows()
 
     # BRISEMO STARE SLIKE AKO JE VEC RADJEN OVAJ POSTUPAK
 
