@@ -55,6 +55,8 @@ class PlayNotes():
                 degrees.append(59)
             elif note_name=='h4':
                 degrees.append(71)
+            elif note_name=='pauze':
+                degrees.append(1)
             else:
                 degrees.append(0)
 
@@ -89,12 +91,15 @@ class PlayNotes():
         MyMIDI.addTempo(track, time, tempo)
         length = len(degrees)
         for i in range(length):
-            MyMIDI.addNote(track, channel, degrees[i], time, duration[i], volume)
-            time = time + 1
-        with open("major-scale.mid", "wb") as output_file:
+            if(degrees[i]!=0 and degrees[i]!=1):
+                MyMIDI.addNote(track, channel, degrees[i], time, duration[i], volume)
+                time = time + 1
+            if(degrees[i]==1):
+                time=time+duration[i]
+        with open("melody.mid", "wb") as output_file:
             MyMIDI.writeFile(output_file)
 
-        midi_file = 'major-scale.mid'
+        midi_file = 'melody.mid'
         freq = 44100  # audio CD quality
         bitsize = -16  # unsigned 16 bit
         channels = 2  # 1 is mono, 2 is stereo

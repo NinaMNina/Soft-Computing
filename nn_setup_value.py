@@ -63,9 +63,9 @@ class CNNDuraiton():
         #CNNDuraiton.model = model
 
         model.save('nnsetupvalue.h5')
-    def reloadModel(self):
+    def reloadModel():
         CNNDuraiton.model = load_model('nnsetupvalue.h5')
-    def checkLength(self, path):
+    def checkLength(path):
         model  = CNNDuraiton.model
         img = cv2.imread(path)
         gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

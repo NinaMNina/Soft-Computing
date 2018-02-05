@@ -167,9 +167,9 @@ class CNNValue():
         #CNNValue.model = model
 
         model.save('nnsetup.h5')
-    def reloadModel(self):
+    def reloadModel():
         CNNValue.model = load_model('nnsetup.h5')
-    def checkNote(self, path):
+    def checkNote(path):
         model = CNNValue.model
         img = cv2.imread(path)
         gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

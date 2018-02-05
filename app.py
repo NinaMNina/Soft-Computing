@@ -10,6 +10,10 @@ from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
 from playNotes import PlayNotes
 from nn_setup import CNNValue
 from nn_setup_value import CNNDuraiton
+from PIL import ImageTk
+from midiutil.MidiFile import *
+import pygame
+import makeSound as ms
 
 class MainFrame():
     path = ""
@@ -23,40 +27,45 @@ class MainFrame():
 
         self.root.iconbitmap(cwd+'/images/icon.ico')
 
-        labelF = LabelFrame( self.root, text='Based on Convolution Neural Network')
-        labelF.pack(fill="both", expand="yes")
+        self.labelF = LabelFrame( self.root, text='Based on Convolution Neural Network')
+        self.labelF.pack(fill="both", expand="yes")
 
-        labelEmpty = Label(labelF, text="")
+        labelEmpty = Label(self.labelF, text="")
         labelEmpty.grid(row=0, column=0)
 
-        label2 = Label(labelF, text="Start to train CNN")
+        label2 = Label(self.labelF, text="Start to train CNN")
         label2.grid(row=1, column=0)
 
-        button1 = Button(labelF, text="start", command=self.callNN)
+        button1 = Button(self.labelF, text="start", command=self.callNN)
         button1.grid(row=1, column=1)
 
-        labelEmpty = Label(labelF, text="")
+        labelEmpty = Label(self.labelF, text="")
         labelEmpty.grid(row=2, column=0)
 
-        label1 = Label(labelF, text="Add notes to process")
+        label1 = Label(self.labelF, text="Add notes to process")
         label1.grid(row=3, column=0)
 
-        self.entry = Entry(labelF, width=50)
+        self.entry = Entry(self.labelF, width=50)
         self.entry.grid(row=3, column=1)
 
-        button2 = Button(labelF, text="Search", command=self.addNotes)
+        button2 = Button(self.labelF, text="Search", command=self.addNotes)
         button2.grid(row=3, column=2)
 
-        labelEmpty = Label(labelF, text="")
+        labelEmpty = Label(self.labelF, text="")
         labelEmpty.grid(row=4, column=0)
 
-        button3 = Button(labelF, text="Make melody and play", command=self.processAndPerform)
+        button3 = Button(self.labelF, text="Make melody and play", command=self.processAndPerform)
         button3.grid(row=5, column=1)
 
-        labelEmpty = Label(labelF, text="")
+
+        button4 = Button(self.labelF, text="Replay last one made", command=self.replayMelody)
+        button4.grid(row=5, column=2)
+
+        labelEmpty = Label(self.labelF, text="")
         labelEmpty.grid(row=6, column=0)
 
-        self.imgCanvas = Canvas(labelF, width=700, height=600)
+
+        self.imgCanvas = Canvas(self.labelF, width=700, height=600)
         self.imgCanvas.grid(row=7, column=0, columnspan=4, rowspan=5)
         path = cwd+'/images/cover.gif'
         img = PhotoImage(file=path)
@@ -103,17 +112,36 @@ class MainFrame():
             self.entry.delete(0, END)  # deletes the current value
             self.entry.insert(0, name)
             MainFrame.path = name
-            # img = PhotoImage(file=name)
-            # self.imgCanvas.delete("all")
-            # self.imgCanvas.create_image(0, 0, anchor='nw', image=img)
+
         except:
             print("No image exists")
 
     def processAndPerform(self):
         if MainFrame.path=="":
             return
-        melody = PlayNotes()
         print("making a melody")
+        # img = cv2.imread(MainFrame.path)
+        # cv2.imshow('notes', img)
+        melody = PlayNotes()
+
+    def replayMelody(self):
+        midi_file = 'major-scale.mid'
+        freq = 44100  # audio CD quality
+        bitsize = -16  # unsigned 16 bit
+        channels = 2  # 1 is mono, 2 is stereo
+        buffer = 1024  # number of samples
+        pygame.mixer.init(freq, bitsize, channels, buffer)
+
+        # optional volume 0 to 1.0
+        pygame.mixer.music.set_volume(1.0)
+        try:
+            ms.play_music(midi_file)
+        except KeyboardInterrupt:
+            # if user hits Ctrl/C then exit
+            # (works only in console mode)
+            pygame.mixer.music.fadeout(1000)
+            pygame.mixer.music.stop()
+            raise SystemExit
 
     def neuralDuration(self):
         cnnd = CNNDuraiton.__init__()
