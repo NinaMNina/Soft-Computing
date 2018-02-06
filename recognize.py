@@ -18,7 +18,7 @@ def cropNotes(path):
     matrix = []
     #BOJIMO LINIJE U REDOVIMA NOTNOG SISTEMA DA VIDIMO KOJE JE IZDVOJIO
     for i in range(y):
-            cv2.line(img, (lines[i][0][0], lines[i][0][1]), (lines[i][0][2], lines[i][0][3]), (0, 0, 255), 1, cv2.LINE_AA)
+            cv2.line(img, (lines[i][0][0], lines[i][0][1]), (lines[i][0][2], lines[i][0][3]), (0, 0, 255), 2, cv2.LINE_AA)
 
        # cv2.imshow('edges', edges)
     cv2.imshow('result', img)
@@ -59,28 +59,56 @@ def cropNotes(path):
         os.remove(loc + "/" + fileName)
     length = len(matrix) / 5
     length = int(length)
-    a =  matrix[1]
-    b = matrix[0]
-    min_razmak = []
-    min_razmak = a - b
-    start_razmak = b
-    if(b>50):
-        start_razmak=50
+    min_razmak = matrix[1] - matrix[0]
+    max_razmak = img.shape[1]
+    for i in range(len(matrix)-1):
+        if(matrix[i+1]-matrix[i]<min_razmak):
+            if(matrix[i+1]-matrix[i]>1):
+                min_razmak = matrix[i+1]-matrix[i]
+    for i in range(len(matrix)-1):
+        if(matrix[i+1]-matrix[i]>int(min_razmak*6)):
+            if(matrix[i+1]-matrix[i]<max_razmak):
+                max_razmak = matrix[i+1]-matrix[i]
 
     #UCITAVAMO SLIKU I DELIMO JE U DELOVE VODECI SE MATRICOM KOJA SADRZI POZICIJE SVIH HORIZONTALNIH LINIJA
     img = cv2.imread(path)
-    for i in range(length):
-        for j in range(4):
-            if (matrix[i*5+1+j]-matrix[i*5+j]<min_razmak):
-                min_razmak = matrix[i*5+1+j]-matrix[i*5+j]
-        top = matrix[i * 5]
-        bottom = matrix[(i * 5) + 4]
-        if(bottom-top>min_razmak+20):
-            top -=10
-            bottom = top + min_razmak*5 + 10
-        lajna = img[(top - start_razmak):(bottom + start_razmak), :, :]
+    num_lines = 0
+    top_temp = matrix[0]
+    top=matrix[0]
+    count = 0
+    for i in range(len(matrix)-1):
+        if(matrix[i+1]-matrix[i]<int(min_razmak*6)):
+            if(num_lines==0):
+                top_temp=matrix[i]
+            num_lines+=1
+            continue
+        bottom = matrix[i]
+        top = top_temp - int(bottom - top_temp)
+        bottom = bottom + int(bottom - top_temp)
+
+        white = True
+        a = top
+        b = bottom
+        for x in range(a, b):
+            for y in range(img.shape[1]):
+                if(img.item(x, y, 1) < 200):
+                    white = False
+            if(white==True):
+                top = top + 1
+            else:
+                break
+        white = True
+        for x in range(b, a, -1):
+            for y in range(img.shape[1]):
+                if(img.item(x, y, 1) < 200):
+                    white = False
+            if(white==True):
+                bottom = bottom - 1
+            else:
+                break
+        lajna = img[(top-10):(bottom+10), :, :]
         ime  = 'images/parts/slika'
-        ime += str(i)
+        ime += str(count)
         ime += '.png'
         cv2.imwrite(ime, lajna)
         # for col in range(img.shape[1]):
@@ -96,7 +124,35 @@ def cropNotes(path):
         cv2.imshow('lajna', lajna)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
-
+        count+=1
+        num_lines=0
+    if (num_lines!=0):
+        bottom = matrix[len(matrix)-1]
+        top = top_temp - int(bottom - top_temp)
+        bottom = bottom + int(bottom - top_temp)
+        white = True
+        for x in range(top, bottom):
+            for y in range(img.shape[1]):
+                if (img.item(x, y, 2) < 200):
+                    white = False
+            if (white == True):
+                top = top + 1
+            else:
+                break
+        white = True
+        for x in range(bottom, top, -1):
+            for y in range(img.shape[1]):
+                if (img.item(x, y, 2) < 200):
+                    white = False
+            if (white == True):
+                bottom = bottom - 1
+            else:
+                break
+        lajna = img[(top - 10):(bottom + 10), :, :]
+        ime = 'images/parts/slika'
+        ime += str(count)
+        ime += '.png'
+        cv2.imwrite(ime, lajna)
     # BRISEMO STARE SLIKE AKO JE VEC RADJEN OVAJ POSTUPAK
 
     loc = os.getcwd()
@@ -143,7 +199,7 @@ def cropNotes(path):
         matSize = len(matrix) - 1
         begin = matrix[0] - 1
         for i in range(matSize):
-            if (matrix[i + 1] - matrix[i] > 5):
+            if (matrix[i + 1] - matrix[i] > 10):
                 end = matrix[i]
                 l = [begin, end]
                 notes.append(l)
@@ -151,9 +207,9 @@ def cropNotes(path):
 
             # print notes
 
-        cv2.imshow('lines', img)
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()
+        # cv2.imshow('lines', img)
+        # cv2.waitKey(0)
+        # cv2.destroyAllWindows()
 
         length1 = len(notes)
 
@@ -164,7 +220,7 @@ def cropNotes(path):
             value = notes[j]
             left = value[0]
             right = value[1]
-            notica = img[:, (left - 15):(right + 15), :]
+            notica = img[:, (left - 10):(right + 10), :]
             ime = 'images/notes/nota'
             ime += str(count)
             ime += '.png'
