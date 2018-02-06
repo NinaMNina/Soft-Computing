@@ -63,6 +63,9 @@ def cropNotes(path):
     b = matrix[0]
     min_razmak = []
     min_razmak = a - b
+    start_razmak = b
+    if(b>50):
+        start_razmak=50
 
     #UCITAVAMO SLIKU I DELIMO JE U DELOVE VODECI SE MATRICOM KOJA SADRZI POZICIJE SVIH HORIZONTALNIH LINIJA
     img = cv2.imread(path)
@@ -73,26 +76,26 @@ def cropNotes(path):
         top = matrix[i * 5]
         bottom = matrix[(i * 5) + 4]
         if(bottom-top>min_razmak+20):
-            bottom = top + min_razmak*5 + 10
             top -=10
-        lajna = img[(top - 50):(bottom + 50), :, :]
+            bottom = top + min_razmak*5 + 10
+        lajna = img[(top - start_razmak):(bottom + start_razmak), :, :]
         ime  = 'images/parts/slika'
         ime += str(i)
         ime += '.png'
         cv2.imwrite(ime, lajna)
-        for col in range(img.shape[1]):
-            black=True
-            for row in range(top, bottom):
-                if(img.item(row, col, 1) > 100):
-                    black=False
-            if(black == True):
-                img.itemset((row, col, 0), 255)
-                img.itemset((row, col, 1), 255)
-                img.itemset((row, col, 2), 255)
+        # for col in range(img.shape[1]):
+        #     black=True
+        #     for row in range(top, bottom):
+        #         if(img.item(row, col, 1) > 100):
+        #             black=False
+        #     if(black == True):
+        #         img.itemset((row, col, 0), 255)
+        #         img.itemset((row, col, 1), 255)
+        #         img.itemset((row, col, 2), 255)
 
-    cv2.imshow('lajna', lajna)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+        cv2.imshow('lajna', lajna)
+        cv2.waitKey(0)
+        cv2.destroyAllWindows()
 
     # BRISEMO STARE SLIKE AKO JE VEC RADJEN OVAJ POSTUPAK
 
@@ -113,7 +116,7 @@ def cropNotes(path):
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         edges = cv2.Canny(gray, 50, 150, apertureSize=3)
 
-        minLineLength = img.shape[1] - 300
+        minLineLength = int(img.shape[1] * 0.8)
         lines = cv2.HoughLinesP(image=edges, rho=0.02, theta=np.pi / 500, threshold=10, lines=np.array([]),
                                     minLineLength=minLineLength, maxLineGap=50)
 
@@ -169,4 +172,3 @@ def cropNotes(path):
        #     notica =  cv2.bitwise_not(gray_image)
             cv2.imwrite(ime, notica)
             count+=1
-

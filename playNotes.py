@@ -1,15 +1,15 @@
 from midiutil.MidiFile import *
 import pygame
 import makeSound as ms
-import app
+import mainFrame
 import recognize
 import os
-from nn_setup_value import CNNDuraiton
+from nn_setup_duration import CNNDuraiton
 from nn_setup import CNNValue
 
 class PlayNotes():
     def __init__(self):
-        path = app.MainFrame.path
+        path = mainFrame.MainFrame.path
         recognize.cropNotes(path)
         CNNValue.reloadModel()
         CNNDuraiton.reloadModel()

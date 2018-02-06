@@ -9,8 +9,8 @@ import threading
 from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
 from playNotes import PlayNotes
 from nn_setup import CNNValue
-from nn_setup_value import CNNDuraiton
-from PIL import ImageTk
+from nn_setup_duration import CNNDuraiton
+from PIL import ImageTk, Image
 from midiutil.MidiFile import *
 import pygame
 import makeSound as ms
@@ -18,12 +18,15 @@ import makeSound as ms
 class MainFrame():
     path = ""
     def __init__(self):
-        print ('init main frame - app.py')
+        print ('init main frame - mainFrame.py')
+
         cwd = os.getcwd()
         self.root = tk.Tk()
+        screen_width = int(self.root.winfo_screenwidth() * 0.6)
+        screen_height = int(self.root.winfo_screenheight() *0.9)
 
         self.root.title('TNotes - Music Note Recognition')
-        self.root.geometry("700x700")
+        self.root.geometry(str(screen_width)+"x"+str(screen_height))
 
         self.root.iconbitmap(cwd+'/images/icon.ico')
 
@@ -65,11 +68,15 @@ class MainFrame():
         labelEmpty.grid(row=6, column=0)
 
 
-        self.imgCanvas = Canvas(self.labelF, width=700, height=600)
-        self.imgCanvas.grid(row=7, column=0, columnspan=4, rowspan=5)
+        self.imgCanvas = Canvas(self.labelF, width=screen_width, height=70)
+        self.imgCanvas.grid(row=7, column=0, columnspan=3)
+
+
         path = cwd+'/images/cover.gif'
         img = PhotoImage(file=path)
-        self.imgCanvas.create_image(0, 0, image=img, anchor="nw" )
+        self.labelImg = Label(self.labelF, image=img)
+        self.labelImg.grid(row=8, column=0, columnspan=3, rowspan=3)
+
 
         mainloop()
 
@@ -85,21 +92,9 @@ class MainFrame():
         t1.start()
 
     def appDialog(self):
-        # self.top = Toplevel(self.root)
-        # self.top.title("Convolution Neural Network is in training...")
-        # cwd = os.getcwd()
-        # self.top.iconbitmap(cwd + '/images/icon.ico')
-        # self.canvas = Canvas(self.top, width=400, height=400)
-        # self.top.protocol("WM_DELETE_WINDOW", self.disable_event)
-        # self.canvas.pack()
-        self.alien1 = self.imgCanvas.create_oval(50, 50, 100, 100, outline='white', fill='red')
-        # self.alien2 = self.canvas.create_oval(2, 2, 40, 40, outline='white', fill='red')
-        # self.alien3 = self.canvas.create_oval(20, 20, 80, 80, outline='white', fill='white')
-        # self.alien4 = self.canvas.create_oval(50, 130, 220, 300, outline='white', fill='purple')
-        # self.alien5 = self.canvas.create_oval(25, 150, 100, 100, outline='white', fill='yellow')
-        # self.alien6 = self.canvas.create_oval(20, 320, 120, 390, outline='white', fill='green')
+        self.alien1 = self.imgCanvas.create_oval(10, 10, 60, 60, outline='white', fill='green')
         # self.imgCanvas.pack()
-        self.root.after(0, self.animation)
+        self._job = self.root.after(0, self.animation)
 
     def addNotes(self):
         print('it wants to add some notes')
@@ -107,14 +102,24 @@ class MainFrame():
                                title="Choose an Image")
         print(name)
         # Using try in case user types in unknown file or closes without choosing a file.
+        screen_width = int(self.root.winfo_screenwidth() * 0.6)
+        screen_height = int(self.root.winfo_screenheight() * 0.9)
         try:
             img = cv2.imread(name)
             self.entry.delete(0, END)  # deletes the current value
             self.entry.insert(0, name)
             MainFrame.path = name
+            img  = PhotoImage(file=name)
+            self.labelImg.configure(image=img)
+            self.labelImg.image = img
 
         except:
-            print("No image exists")
+            try:
+                img = ImageTk.PhotoImage(Image.open(name).resize((screen_width, int(screen_height*0.7))))
+                self.labelImg.configure(image=img)
+                self.labelImg.image = img
+            except:
+                print("No image exists")
 
     def processAndPerform(self):
         if MainFrame.path=="":
@@ -172,49 +177,28 @@ class MainFrame():
         cnnv = CNNValue.__init__()
         #CNNValue.checkNote('images/predict/1-2.png')
 
-
-        # self.param = False
-        # self.top.after_cancel(self.top._job)
         self.threads.__delitem__(1)
-        self.alien1 = None
-        # self.param = False
-        # self.top.after_cancel(self.top._job)
+        self.imgCanvas.after_cancel(self._job)
         self.threads.__delitem__(0)
-        # self.top.destroy()
 
     def disable_event(self):
         pass
     def animation(self):
         track = 0
-        if (self.alien1==None):
-            return
         while True:
             x = 5
             y = 0
+            screen_width = int(self.root.winfo_screenwidth() * 0.11)
             if track == 0:
-                for i in range(0, 110):
-                    if (self.alien1 == None):
-                        return
+                for i in range(0, screen_width):
                     time.sleep(0.025)
                     self.imgCanvas.move(self.alien1, x, y)
-                    # self.canvas.move(self.alien2, x, y)
-                    # self.canvas.move(self.alien3, x, y)
-                    # self.canvas.move(self.alien4, x, y)
-                    # self.canvas.move(self.alien5, x, y)
-                    # self.canvas.move(self.alien6, x, y)
                     self.imgCanvas.update()
                 track = 1
 
             else:
-                for i in range(0, 110):
-                    if (self.alien1 == None):
-                        return
+                for i in range(0, screen_width):
                     time.sleep(0.025)
                     self.imgCanvas.move(self.alien1, -x, y)
-                    # self.canvas.move(self.alien2, -x, y)
-                    # self.canvas.move(self.alien3, -x, y)
-                    # self.canvas.move(self.alien4, -x, y)
-                    # self.canvas.move(self.alien5, -x, y)
-                    # self.canvas.move(self.alien6, -x, y)
                     self.imgCanvas.update()
                 track = 0

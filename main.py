@@ -4,7 +4,7 @@ import math
 import collections
 import os
 
-from app import MainFrame
+from mainFrame import MainFrame
 
 try:
     from cv2 import cv2
