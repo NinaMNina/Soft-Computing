@@ -14,6 +14,7 @@ def cropNotes(path):
     lines = cv2.HoughLinesP(image=edges, rho=0.02, theta=np.pi / 500, threshold=5, lines=np.array([]),
                                 minLineLength=minLineLength, maxLineGap=30)
 
+
     y, x, c = lines.shape
     matrix = []
     #BOJIMO LINIJE U REDOVIMA NOTNOG SISTEMA DA VIDIMO KOJE JE IZDVOJIO

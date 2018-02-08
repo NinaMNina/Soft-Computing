@@ -149,7 +149,7 @@ class MainFrame():
             raise SystemExit
 
     def neuralDuration(self):
-        cnnd = CNNDuraiton.__init__()
+        #cnnd = CNNDuraiton.__init__()
         # CNNDuraiton.checkLength('images/predict/1-2.png')
         # print('---should be n1-2---')
         # CNNDuraiton.checkLength('images/predict/1-16.png')

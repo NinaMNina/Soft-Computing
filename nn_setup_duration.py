@@ -14,7 +14,7 @@ from keras.models import load_model
 
 
 class CNNDuraiton():
-    model = load_model('nnsetupvalue.h5')
+    # model = load_model('nnsetupvalue.h5')
     def __init__():
         nClasses = 10
 
@@ -47,7 +47,7 @@ class CNNDuraiton():
         )
         training_set = train_datagen.flow_from_directory('train_data1',
         target_size = (70, 30),
-        batch_size = 32,
+        batch_size = 64,
         class_mode = 'categorical')
 
         test_set = test_datagen.flow_from_directory('test_data1',
@@ -56,11 +56,11 @@ class CNNDuraiton():
         class_mode = 'categorical')
 
         model.fit_generator(training_set,
-        steps_per_epoch = 1460,
+        steps_per_epoch = 703,
         epochs = 2,
         validation_data = test_set,
-        validation_steps = 300)
-        #CNNDuraiton.model = model
+        validation_steps = 150)
+        CNNDuraiton.model = model
 
         model.save('nnsetupvalue.h5')
     def reloadModel():
