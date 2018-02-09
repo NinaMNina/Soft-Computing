@@ -22,7 +22,7 @@ class MainFrame():
 
         cwd = os.getcwd()
         self.root = tk.Tk()
-        screen_width = int(self.root.winfo_screenwidth() * 0.6)
+        screen_width = int(self.root.winfo_screenwidth() * 0.7)
         screen_height = int(self.root.winfo_screenheight() *0.9)
 
         self.root.title('TNotes - Music Note Recognition')
@@ -30,28 +30,28 @@ class MainFrame():
 
         self.root.iconbitmap(cwd+'/images/icon.ico')
 
-        self.labelF = LabelFrame( self.root, text='Based on Convolution Neural Network')
+        self.labelF = LabelFrame( self.root, text='Based on Convolutional Neural Network')
         self.labelF.pack(fill="both", expand="yes")
 
         labelEmpty = Label(self.labelF, text="")
         labelEmpty.grid(row=0, column=0)
 
-        label2 = Label(self.labelF, text="Start to train CNN")
+        label2 = Label(self.labelF, text="Start to train CNN:")
         label2.grid(row=1, column=0)
 
-        button1 = Button(self.labelF, text="start", command=self.callNN)
+        button1 = Button(self.labelF, text="Start", command=self.callNN)
         button1.grid(row=1, column=1)
 
         labelEmpty = Label(self.labelF, text="")
         labelEmpty.grid(row=2, column=0)
 
-        label1 = Label(self.labelF, text="Add notes to process")
+        label1 = Label(self.labelF, text="Add notes to process:")
         label1.grid(row=3, column=0)
 
-        self.entry = Entry(self.labelF, width=50)
+        self.entry = Entry(self.labelF, width=100)
         self.entry.grid(row=3, column=1)
 
-        button2 = Button(self.labelF, text="Search", command=self.addNotes)
+        button2 = Button(self.labelF, text="Browse", command=self.addNotes)
         button2.grid(row=3, column=2)
 
         labelEmpty = Label(self.labelF, text="")
@@ -60,22 +60,24 @@ class MainFrame():
         button3 = Button(self.labelF, text="Make melody and play", command=self.processAndPerform)
         button3.grid(row=5, column=1)
 
-
-        button4 = Button(self.labelF, text="Replay last one made", command=self.replayMelody)
-        button4.grid(row=5, column=2)
-
         labelEmpty = Label(self.labelF, text="")
         labelEmpty.grid(row=6, column=0)
 
+        button4 = Button(self.labelF, text="Replay", command=self.replayMelody)
+        button4.grid(row=7, column=1)
+
+        labelEmpty2 = Label(self.labelF, text="")
+        labelEmpty2.grid(row=8, column=0)
+
 
         self.imgCanvas = Canvas(self.labelF, width=screen_width, height=70)
-        self.imgCanvas.grid(row=7, column=0, columnspan=3)
+        self.imgCanvas.grid(row=9, column=0, columnspan=3)
 
 
         path = cwd+'/images/cover.gif'
         img = PhotoImage(file=path)
         self.labelImg = Label(self.labelF, image=img)
-        self.labelImg.grid(row=8, column=0, columnspan=3, rowspan=3)
+        self.labelImg.grid(row=10, column=0, columnspan=3, rowspan=3)
 
 
         mainloop()
@@ -115,11 +117,18 @@ class MainFrame():
 
         except:
             try:
-                img = ImageTk.PhotoImage(Image.open(name).resize((screen_width, int(screen_height*0.7))))
-                self.labelImg.configure(image=img)
-                self.labelImg.image = img
+                if(name!=''):
+                    img = ImageTk.PhotoImage( Image.open(name).resize(( screen_width, int(screen_height*0.5) )) )
+                    self.labelImg.configure(image=img)
+                    self.labelImg.image = img
+                else:
+                    path = cwd + '/images/cover.gif'
+                    img = PhotoImage(file=path)
+                    self.labelImg = Label(self.labelF, image=img)
+                    self.labelImg.grid(row=10, column=0, columnspan=3, rowspan=3)
             except:
                 print("No image exists")
+
 
     def processAndPerform(self):
         if MainFrame.path=="":

@@ -22,6 +22,7 @@ class PlayNotes():
         resized = ['violinski kljuc', 'f4', 'f4', 'g4', 'g4', 'g4', 'a4', 'c5', 'c5', 'a4', 'a4', 'g4', 'g4', 'g4', 'a4', 'f4', 'd4',
                    'violinski kljuc', 'f4', 'f4', 'g4', 'g4', 'g4', 'a4', 'c5', 'c5', 'd5', 'c5', 'a4', 'g4', 'f4', 'pauza']
 
+
         resizedL = ['n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2',
                     'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'p1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'p-2']
 
@@ -31,6 +32,14 @@ class PlayNotes():
 
         test5L = ['n1-8', 'p1-8', 'n1-4', 'n1-4', 'n1-8', 'p1-8', 'n1-8', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8', 'p1-4',
                   'n1-8', 'p1-8', 'n1-8', 'p1-8', 'n1-8', 'n1-8', 'p1-8', 'p1-8', 'p1-4', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8', 'p1-4']
+
+
+        test1 = ['violinski kljuc', 'f4', 'f4', 'g4', 'g4', 'g4', 'a4', 'c5', 'c5', 'a4', 'a4', 'g4', 'g4', 'g4', 'a4', 'f4', 'd4',
+                 'violinski kljuc', 'f4', 'f4', 'g4', 'g4', 'g4', 'a4', 'c5', 'c5', 'd5', 'c5', 'a4', 'g4', 'f4', 'pauza']
+        test1L =['n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2',
+                 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'p1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'p1-2']
+
+
 
         path = mainFrame.MainFrame.path
         recognize.cropNotes(path)
@@ -111,8 +120,7 @@ class PlayNotes():
 
             print (note_name + ' ' + note_duration)
         print ('prepoznate note pre izbacivanja taktica:')
-        print (notenames)
-        print (lengths)
+
         print ("len pre izbacivanja taktica: " + str(len(notenames)))
         for note in notenames:
             if(note == "taktica"):
@@ -133,21 +141,30 @@ class PlayNotes():
            for i in range(lenghtsLen):
                if(lengths[i] == opsL[i]):
                     check2 += 1
-        elif(os.path.basename(path) == 'resized.png'):
+        elif(os.path.basename(path) == 'resized.jpg'):
            for i in range(notesLen):
                if(notenames[i] == resized[i]):
                    check += 1
            for i in range(lenghtsLen):
                if (lengths[i] == resizedL[i]):
                    check2 += 1
-        elif (os.path.basename(path) == 'test5.png'):
+        elif (os.path.basename(path) == 'test5.jpg'):
             for i in range(notesLen):
                 if (notenames[i] == test5[i]):
                     check += 1
             for i in range(lenghtsLen):
                 if (lengths[i] == test5L[i]):
                     check2 += 1
+        elif (os.path.basename(path) == 'test1.jpg'):
+            for i in range(notesLen):
+                if (notenames[i] == test1[i]):
+                    check += 1
+            for i in range(lenghtsLen):
+                if (lengths[i] == test1L[i]):
+                    check2 += 1
 
+        print(notenames)
+        print(lengths)
         print ('pogodjenih visina ' + str(check) + ' od ' + str(notesLen) )
         print('pogodjenih duzina ' + str(check2) + ' od ' + str(lenghtsLen))
         ctypes.windll.user32.MessageBoxW(0, "Pogodjeni tonaliteti nota: " + str(round(check/notesLen*100, 2)) + "%"
