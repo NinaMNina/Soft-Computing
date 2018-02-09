@@ -10,15 +10,34 @@ import ctypes  # An included library with Python install.
 
 class PlayNotes():
     def __init__(self):
-        ops = ['violinski kljuc', 'c4', 'h3', 'c4', 'd4', 'e4', 'd4', 'c4', 'c4', 'h3', 'c4', 'd4', 'e4', 'c4', 'h3', 'c4', 'd4', 'violinski kljuc', 'e4', 'd4', 'c4', 'd4', 'c4', 'd4', 'e4', 'f4', 'f4', 'e4', 'd4', 'c4', 'h3', 'c4', 'violinski kljuc', 'e4', 'd4', 'e4', 'f4', 'e4', 'd4', 'c4', 'g4']
-        resized = ['violinski kljuc', 'f4', 'f4', 'g4', 'g4', 'g4', 'a4', 'c5', 'c5', 'a4', 'a4', 'g4', 'g4', 'g4', 'a4', 'f4', 'd4', 'violinski kljuc', 'f4', 'f4', 'g4', 'g4', 'g4', 'a4', 'c5', 'c5', 'd5', 'c5', 'a4', 'g4', 'f4', 'pauza']
-        test5 = ['violinski kljuc', 'c4', 'pauza', 'c4', 'd4', 'e4', 'pauza', 'd4', 'c4', 'pauza', 'pauza', 'e4', 'pauza', 'pauza', 'g4', 'pauza', 'pauza', 'c5', 'pauza', 'pauza', 'g4', 'pauza', 'pauza', 'pauza', 'violinski kljuc', 'g4', 'pauza', 'g4', 'pauza', 'f4', 'e4', 'pauza', 'pauza', 'pauza', 'd4', 'pauza', 'pauza', 'g4', 'pauza', 'pauza', 'c4', 'pauza', 'pauza', 'pauza']
+        ops = ['violinski kljuc', 'c4', 'h3', 'c4', 'd4', 'e4', 'd4', 'c4', 'c4', 'h3', 'c4', 'd4', 'e4', 'c4', 'h3', 'c4', 'd4',
+               'violinski kljuc', 'e4', 'd4', 'c4', 'd4', 'c4', 'd4', 'e4', 'f4', 'f4', 'e4', 'd4', 'c4', 'h3', 'c4',
+               'violinski kljuc', 'e4', 'd4', 'e4', 'f4', 'e4', 'd4', 'c4', 'g4']
+
+        opsL = ['n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4',
+                'n1-4', 'n1-4', 'n1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-1', 'n1-1', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2',
+                'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'n1-2', 'n1-2', 'n1-2']
+
+
+        resized = ['violinski kljuc', 'f4', 'f4', 'g4', 'g4', 'g4', 'a4', 'c5', 'c5', 'a4', 'a4', 'g4', 'g4', 'g4', 'a4', 'f4', 'd4',
+                   'violinski kljuc', 'f4', 'f4', 'g4', 'g4', 'g4', 'a4', 'c5', 'c5', 'd5', 'c5', 'a4', 'g4', 'f4', 'pauza']
+
+        resizedL = ['n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2',
+                    'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'p1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'p-2']
+
+
+        test5 = ['violinski kljuc', 'c4', 'pauza', 'c4', 'd4', 'e4', 'pauza', 'd4', 'c4', 'pauza', 'pauza', 'e4', 'pauza', 'pauza', 'g4', 'pauza', 'pauza', 'c5', 'pauza', 'pauza', 'g4', 'pauza', 'pauza', 'pauza',
+                 'violinski kljuc', 'g4', 'pauza', 'g4', 'pauza', 'f4', 'e4', 'pauza', 'pauza', 'pauza', 'd4', 'pauza', 'pauza', 'g4', 'pauza', 'pauza', 'c4', 'pauza', 'pauza', 'pauza']
+
+        test5L = ['n1-8', 'p1-8', 'n1-4', 'n1-4', 'n1-8', 'p1-8', 'n1-8', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8', 'p1-4',
+                  'n1-8', 'p1-8', 'n1-8', 'p1-8', 'n1-8', 'n1-8', 'p1-8', 'p1-8', 'p1-4', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8', 'p1-4']
 
         path = mainFrame.MainFrame.path
         recognize.cropNotes(path)
         print ('notes cropped')
 
         notenames = []
+        lengths = []
         degrees = []
         duration = []
         loc = os.getcwd()
@@ -60,54 +79,82 @@ class PlayNotes():
                 degrees.append(59)
             elif note_name=='h4':
                 degrees.append(71)
-            elif note_name=='pauze':
+            elif note_name=='pauza':
                 degrees.append(1)
             else:
-                degrees.append(0)
+                continue
 
-            if(note_name == "taktica" or note_name == "violinski kljuc"):
+            if(note_name == "violinski kljuc"):
                 note_duration = '0'
+            elif(note_name == "taktica"):
+                note_duration = "nista"
             else:
                 note_duration = CNNDuraiton.checkLength(path0)
 
             if note_duration=="n1-1" or note_duration=="p1-1":
                 duration.append(t)
+                lengths.append(note_duration)
             elif note_duration=="n1-2" or note_duration=="p1-2":
                 duration.append(t/2)
+                lengths.append(note_duration)
             elif note_duration=="n1-4" or note_duration=="p1-4":
                 duration.append(t/4)
+                lengths.append(note_duration)
             elif note_duration=="n1-8" or note_duration=="p1-8":
                 duration.append(t/8)
+                lengths.append(note_duration)
             elif note_duration=="n1-16" or note_duration=="p1-16":
                 duration.append(t/16)
+                lengths.append(note_duration)
             else:
                 duration.append(0)
+
             print (note_name + ' ' + note_duration)
         print ('prepoznate note pre izbacivanja taktica:')
         print (notenames)
+        print (lengths)
         print ("len pre izbacivanja taktica: " + str(len(notenames)))
         for note in notenames:
             if(note == "taktica"):
                 notenames.remove(note)
         print("len posle izbacivanja taktica: " + str(len(notenames)))
+
         notesLen = len(notenames)
+
+        lenghtsLen = len(lengths)
+
         check = 0
+        check2 = 0
 
         if(os.path.basename(path) == 'ops.jpg'):
            for i in range(notesLen):
                if(notenames[i] == ops[i]):
                    check += 1
+           for i in range(lenghtsLen):
+               if(lengths[i] == opsL[i]):
+                    check2 += 1
         elif(os.path.basename(path) == 'resized.png'):
            for i in range(notesLen):
                if(notenames[i] == resized[i]):
                    check += 1
+           for i in range(lenghtsLen):
+               if (lengths[i] == resizedL[i]):
+                   check2 += 1
         elif (os.path.basename(path) == 'test5.png'):
             for i in range(notesLen):
                 if (notenames[i] == test5[i]):
                     check += 1
-        print ('pogodjenih ' + str(check) + ' od ' + str(notesLen) )
-        ctypes.windll.user32.MessageBoxW(0, "Pogodjeno nota: " + str(round(check/notesLen*100, 2)) + "%", "Rezultat", 0)
-        print (notenames)
+            for i in range(lenghtsLen):
+                if (lengths[i] == test5L[i]):
+                    check2 += 1
+
+        print ('pogodjenih visina ' + str(check) + ' od ' + str(notesLen) )
+        print('pogodjenih duzina ' + str(check2) + ' od ' + str(lenghtsLen))
+        ctypes.windll.user32.MessageBoxW(0, "Pogodjeni tonaliteti nota: " + str(round(check/notesLen*100, 2)) + "%"
+                                         + "\nPogodjena trajanja nota: " + str(round(check2/lenghtsLen*100, 2)) + "%"
+                                         , "Rezultat", 0)
+
+
 
 
 

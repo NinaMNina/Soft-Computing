@@ -185,9 +185,7 @@ def cropNotes(path):
              cv2.line(img, (lines[i][0][0], lines[i][0][1]), (lines[i][0][2], lines[i][0][3]), (255, 255, 255), 2,
                     cv2.LINE_AA)
 
-        cv2.imshow('nesto iseceno', img)
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()
+
 
 
         for row in range(img.shape[0]):

@@ -3,76 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="505030e8-64b3-478d-9553-54749eec170f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bitwtest.png" afterPath="$PROJECT_DIR$/bitwtest.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota0.png" afterPath="$PROJECT_DIR$/images/notes/nota0.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota1.png" afterPath="$PROJECT_DIR$/images/notes/nota1.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota10.png" afterPath="$PROJECT_DIR$/images/notes/nota10.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota11.png" afterPath="$PROJECT_DIR$/images/notes/nota11.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota12.png" afterPath="$PROJECT_DIR$/images/notes/nota12.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota13.png" afterPath="$PROJECT_DIR$/images/notes/nota13.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota14.png" afterPath="$PROJECT_DIR$/images/notes/nota14.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota15.png" afterPath="$PROJECT_DIR$/images/notes/nota15.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota16.png" afterPath="$PROJECT_DIR$/images/notes/nota16.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota17.png" afterPath="$PROJECT_DIR$/images/notes/nota17.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota18.png" afterPath="$PROJECT_DIR$/images/notes/nota18.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota19.png" afterPath="$PROJECT_DIR$/images/notes/nota19.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota2.png" afterPath="$PROJECT_DIR$/images/notes/nota2.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota20.png" afterPath="$PROJECT_DIR$/images/notes/nota20.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota21.png" afterPath="$PROJECT_DIR$/images/notes/nota21.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota22.png" afterPath="$PROJECT_DIR$/images/notes/nota22.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota23.png" afterPath="$PROJECT_DIR$/images/notes/nota23.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota24.png" afterPath="$PROJECT_DIR$/images/notes/nota24.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota25.png" afterPath="$PROJECT_DIR$/images/notes/nota25.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota26.png" afterPath="$PROJECT_DIR$/images/notes/nota26.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota27.png" afterPath="$PROJECT_DIR$/images/notes/nota27.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota28.png" afterPath="$PROJECT_DIR$/images/notes/nota28.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota29.png" afterPath="$PROJECT_DIR$/images/notes/nota29.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota3.png" afterPath="$PROJECT_DIR$/images/notes/nota3.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota30.png" afterPath="$PROJECT_DIR$/images/notes/nota30.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota31.png" afterPath="$PROJECT_DIR$/images/notes/nota31.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota32.png" afterPath="$PROJECT_DIR$/images/notes/nota32.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota33.png" afterPath="$PROJECT_DIR$/images/notes/nota33.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota34.png" afterPath="$PROJECT_DIR$/images/notes/nota34.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota35.png" afterPath="$PROJECT_DIR$/images/notes/nota35.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota36.png" afterPath="$PROJECT_DIR$/images/notes/nota36.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota37.png" afterPath="$PROJECT_DIR$/images/notes/nota37.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota38.png" afterPath="$PROJECT_DIR$/images/notes/nota38.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota39.png" afterPath="$PROJECT_DIR$/images/notes/nota39.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota4.png" afterPath="$PROJECT_DIR$/images/notes/nota4.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota40.png" afterPath="$PROJECT_DIR$/images/notes/nota40.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota41.png" afterPath="$PROJECT_DIR$/images/notes/nota41.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota42.png" afterPath="$PROJECT_DIR$/images/notes/nota42.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota43.png" afterPath="$PROJECT_DIR$/images/notes/nota43.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota44.png" afterPath="$PROJECT_DIR$/images/notes/nota44.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota45.png" afterPath="$PROJECT_DIR$/images/notes/nota45.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota46.png" afterPath="$PROJECT_DIR$/images/notes/nota46.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota47.png" afterPath="$PROJECT_DIR$/images/notes/nota47.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota48.png" afterPath="$PROJECT_DIR$/images/notes/nota48.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota49.png" afterPath="$PROJECT_DIR$/images/notes/nota49.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota5.png" afterPath="$PROJECT_DIR$/images/notes/nota5.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota51.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota52.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota53.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota54.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota55.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota56.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota57.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota58.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota59.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota6.png" afterPath="$PROJECT_DIR$/images/notes/nota6.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota60.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota61.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota7.png" afterPath="$PROJECT_DIR$/images/notes/nota7.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota8.png" afterPath="$PROJECT_DIR$/images/notes/nota8.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota9.png" afterPath="$PROJECT_DIR$/images/notes/nota9.png" />
-      <change beforePath="$PROJECT_DIR$/images/parts/slika0.png" afterPath="$PROJECT_DIR$/images/parts/slika0.png" />
-      <change beforePath="$PROJECT_DIR$/images/parts/slika1.png" afterPath="$PROJECT_DIR$/images/parts/slika1.png" />
-      <change beforePath="$PROJECT_DIR$/images/parts/slika2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/parts/slika3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/test5.png" afterPath="$PROJECT_DIR$/images/test5.png" />
       <change beforePath="$PROJECT_DIR$/melody.mid" afterPath="$PROJECT_DIR$/melody.mid" />
       <change beforePath="$PROJECT_DIR$/playNotes.py" afterPath="$PROJECT_DIR$/playNotes.py" />
+      <change beforePath="$PROJECT_DIR$/recognize.py" afterPath="$PROJECT_DIR$/recognize.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -98,11 +31,9 @@
       <file leaf-file-name="mainFrame.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainFrame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="124">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,8 +41,8 @@
       <file leaf-file-name="playNotes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playNotes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="107" column="46" lean-forward="false" selection-start-line="107" selection-start-column="46" selection-end-line="107" selection-end-column="46" />
+            <state relative-caret-position="238">
+              <caret line="148" column="23" lean-forward="false" selection-start-line="146" selection-start-column="12" selection-end-line="148" selection-end-column="23" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -129,7 +60,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10051">
+            <state relative-caret-position="19">
               <caret line="552" column="0" lean-forward="false" selection-start-line="552" selection-start-column="0" selection-end-line="552" selection-end-column="0" />
               <folding />
             </state>
@@ -139,8 +70,8 @@
       <file leaf-file-name="recognize.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recognize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3515">
-              <caret line="187" column="33" lean-forward="false" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
+            <state relative-caret-position="-673">
+              <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -173,7 +104,7 @@
       <file leaf-file-name="nn_setup_duration.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nn_setup_duration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1330">
+            <state relative-caret-position="-805">
               <caret line="81" column="21" lean-forward="false" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
               <folding />
             </state>
@@ -618,18 +549,25 @@
       <option name="project" value="LOCAL" />
       <updated>1518201322940</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="radi 95% za test5">
+      <created>1518203763351</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1518203763351</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48699272" sideWeight="0.21822916" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5483871" sideWeight="0.21822916" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.4875" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48699272" sideWeight="0.7817708" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5483871" sideWeight="0.7817708" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -681,7 +619,8 @@
     <MESSAGE value="objasnjenje recognize.py" />
     <MESSAGE value="radi najbolje dos ad" />
     <MESSAGE value="slike za testiranje: resized radi 100%, lamb ne radi 2. red, ops omasi par nota al je ok, proba sece u prva 3 reda poslednje note" />
-    <option name="LAST_COMMIT_MESSAGE" value="slike za testiranje: resized radi 100%, lamb ne radi 2. red, ops omasi par nota al je ok, proba sece u prva 3 reda poslednje note" />
+    <MESSAGE value="radi 95% za test5" />
+    <option name="LAST_COMMIT_MESSAGE" value="radi 95% za test5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -760,18 +699,12 @@
     <entry file="file://$PROJECT_DIR$/images/notes/nota29.png" />
     <entry file="file://$PROJECT_DIR$/images/notes/nota28.png" />
     <entry file="file://$PROJECT_DIR$/images/notes/nota27.png" />
-    <entry file="file://$PROJECT_DIR$/images/notes/nota37.png" />
     <entry file="file://$PROJECT_DIR$/images/notes/nota1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/test1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/ops.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -798,28 +731,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/resized.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainFrame.py~Stashed changes" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10051">
-          <caret line="552" column="0" lean-forward="false" selection-start-line="552" selection-start-column="0" selection-end-line="552" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nn_setup_duration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1330">
-          <caret line="81" column="21" lean-forward="false" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -850,20 +762,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainFrame.py">
+    <entry file="file://$PROJECT_DIR$/images/ops.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="552" column="0" lean-forward="false" selection-start-line="552" selection-start-column="0" selection-end-line="552" selection-end-column="0" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nn_setup_duration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-805">
+          <caret line="81" column="21" lean-forward="false" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/notes/nota37.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recognize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3515">
-          <caret line="187" column="33" lean-forward="false" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
+        <state relative-caret-position="-673">
+          <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/resized.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainFrame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -875,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playNotes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="107" column="46" lean-forward="false" selection-start-line="107" selection-start-column="46" selection-end-line="107" selection-end-column="46" />
+        <state relative-caret-position="238">
+          <caret line="148" column="23" lean-forward="false" selection-start-line="146" selection-start-column="12" selection-end-line="148" selection-end-column="23" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
