@@ -12,6 +12,7 @@ class PlayNotes():
     def __init__(self):
         ops = ['violinski kljuc', 'c4', 'h3', 'c4', 'd4', 'e4', 'd4', 'c4', 'c4', 'h3', 'c4', 'd4', 'e4', 'c4', 'h3', 'c4', 'd4', 'violinski kljuc', 'e4', 'd4', 'c4', 'd4', 'c4', 'd4', 'e4', 'f4', 'f4', 'e4', 'd4', 'c4', 'h3', 'c4', 'violinski kljuc', 'e4', 'd4', 'e4', 'f4', 'e4', 'd4', 'c4', 'g4']
         resized = ['violinski kljuc', 'f4', 'f4', 'g4', 'g4', 'g4', 'a4', 'c5', 'c5', 'a4', 'a4', 'g4', 'g4', 'g4', 'a4', 'f4', 'd4', 'violinski kljuc', 'f4', 'f4', 'g4', 'g4', 'g4', 'a4', 'c5', 'c5', 'd5', 'c5', 'a4', 'g4', 'f4', 'pauza']
+        test5 = ['violinski kljuc', 'c4', 'pauza', 'c4', 'd4', 'e4', 'pauza', 'd4', 'c4', 'pauza', 'pauza', 'e4', 'pauza', 'pauza', 'g4', 'pauza', 'pauza', 'c5', 'pauza', 'pauza', 'g4', 'pauza', 'pauza', 'pauza', 'violinski kljuc', 'g4', 'pauza', 'g4', 'pauza', 'f4', 'e4', 'pauza', 'pauza', 'pauza', 'd4', 'pauza', 'pauza', 'g4', 'pauza', 'pauza', 'c4', 'pauza', 'pauza', 'pauza']
 
         path = mainFrame.MainFrame.path
         recognize.cropNotes(path)
@@ -100,7 +101,11 @@ class PlayNotes():
            for i in range(notesLen):
                if(notenames[i] == resized[i]):
                    check += 1
-        print ('pogodjenih ' + str(check) + 'od ' + str(notesLen) )
+        elif (os.path.basename(path) == 'test5.png'):
+            for i in range(notesLen):
+                if (notenames[i] == test5[i]):
+                    check += 1
+        print ('pogodjenih ' + str(check) + ' od ' + str(notesLen) )
         ctypes.windll.user32.MessageBoxW(0, "Pogodjeno nota: " + str(round(check/notesLen*100, 2)) + "%", "Rezultat", 0)
         print (notenames)
 
