@@ -133,7 +133,7 @@ class CNNValue():
             pred = 'h4'
         if resMax < result[0][14]:
             resMax = result[0][14]
-            pred = 'pauze'
+            pred = 'pauza'
         if resMax < result[0][15]:
             resMax = result[0][15]
             pred = 'taktica'

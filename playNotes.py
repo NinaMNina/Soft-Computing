@@ -6,13 +6,17 @@ import recognize
 import os
 from nn_setup_duration import CNNDuraiton
 from nn_setup import CNNValue
+import ctypes  # An included library with Python install.
 
 class PlayNotes():
     def __init__(self):
+        ops = ['violinski kljuc', 'c4', 'h3', 'c4', 'd4', 'e4', 'd4', 'c4', 'c4', 'h3', 'c4', 'd4', 'e4', 'c4', 'h3', 'c4', 'd4', 'violinski kljuc', 'e4', 'd4', 'c4', 'd4', 'c4', 'd4', 'e4', 'f4', 'f4', 'e4', 'd4', 'c4', 'h3', 'c4', 'violinski kljuc', 'e4', 'd4', 'e4', 'f4', 'e4', 'd4', 'c4', 'g4']
+        resized = ['violinski kljuc', 'f4', 'f4', 'g4', 'g4', 'g4', 'a4', 'c5', 'c5', 'a4', 'a4', 'g4', 'g4', 'g4', 'a4', 'f4', 'd4', 'violinski kljuc', 'f4', 'f4', 'g4', 'g4', 'g4', 'a4', 'c5', 'c5', 'd5', 'c5', 'a4', 'g4', 'f4', 'pauza']
+
         path = mainFrame.MainFrame.path
         recognize.cropNotes(path)
-        CNNValue.reloadModel()
-        CNNDuraiton.reloadModel()
+        print ('notes cropped')
+
         notenames = []
         degrees = []
         duration = []
@@ -78,9 +82,30 @@ class PlayNotes():
             else:
                 duration.append(0)
             print (note_name + ' ' + note_duration)
-
-
+        print ('prepoznate note pre izbacivanja taktica:')
         print (notenames)
+        print ("len pre izbacivanja taktica: " + str(len(notenames)))
+        for note in notenames:
+            if(note == "taktica"):
+                notenames.remove(note)
+        print("len posle izbacivanja taktica: " + str(len(notenames)))
+        notesLen = len(notenames)
+        check = 0
+
+        if(os.path.basename(path) == 'ops.jpg'):
+           for i in range(notesLen):
+               if(notenames[i] == ops[i]):
+                   check += 1
+        elif(os.path.basename(path) == 'resized.png'):
+           for i in range(notesLen):
+               if(notenames[i] == resized[i]):
+                   check += 1
+        print ('pogodjenih ' + str(check) + 'od ' + str(notesLen) )
+        ctypes.windll.user32.MessageBoxW(0, "Pogodjeno nota: " + str(round(check/notesLen*100, 2)) + "%", "Rezultat", 0)
+        print (notenames)
+
+
+
         track = 0
         channel = 0
         time = 0

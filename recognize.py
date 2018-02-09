@@ -14,12 +14,11 @@ def cropNotes(path):
     lines = cv2.HoughLinesP(image=edges, rho=0.02, theta=np.pi / 500, threshold=5, lines=np.array([]),
                                 minLineLength=minLineLength, maxLineGap=30)
 
-
     y, x, c = lines.shape
     matrix = []
     #BOJIMO LINIJE U REDOVIMA NOTNOG SISTEMA DA VIDIMO KOJE JE IZDVOJIO
     for i in range(y):
-            cv2.line(img, (lines[i][0][0], lines[i][0][1]), (lines[i][0][2], lines[i][0][3]), (0, 0, 255), 2, cv2.LINE_AA)
+            cv2.line(img, (lines[i][0][0], lines[i][0][1]), (lines[i][0][2], lines[i][0][3]), (0, 0, 255), 2, cv2.LINE_4)
 
        # cv2.imshow('edges', edges)
     cv2.imshow('result', img)
@@ -52,6 +51,7 @@ def cropNotes(path):
                 # img.itemset((row,col, 0), 255)
     #DUZINA JE BROJ LINIJA IZ MATRICE PODELJENO SA 5 JER U SVAKOM REDU NOTNOG SISTEMA IMA PO 5 HORIZONTALNIH LINIJA
     #DOBIJAMO BROJ REDOVA TJ DELOVA KOJE TREBA ISECI I ZATIM POSEBNO OBRADITI
+    print ('matrix length: ' + str(len(matrix)))
     loc = os.getcwd()
     loc += '/images/parts'
     print(loc)
@@ -60,6 +60,7 @@ def cropNotes(path):
         os.remove(loc + "/" + fileName)
     length = len(matrix) / 5
     length = int(length)
+    print('redova: ' + str(length))
     min_razmak = matrix[1] - matrix[0]
     max_razmak = img.shape[1]
     for i in range(len(matrix)-1):
@@ -183,6 +184,11 @@ def cropNotes(path):
         for i in range(y):
              cv2.line(img, (lines[i][0][0], lines[i][0][1]), (lines[i][0][2], lines[i][0][3]), (255, 255, 255), 2,
                     cv2.LINE_AA)
+
+        cv2.imshow('nesto iseceno', img)
+        cv2.waitKey(0)
+        cv2.destroyAllWindows()
+
 
         for row in range(img.shape[0]):
             for col in range(img.shape[1]):
