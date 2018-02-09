@@ -39,7 +39,10 @@ class PlayNotes():
         test1L =['n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2',
                  'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'p1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'p1-2']
 
-
+        lamb = ['violinski kljuc', 'h4', 'a4', 'g4', 'a4', 'h4', 'h4', 'h4', 'c4', 'a4', 'a4', 'a4', 'h4', 'h4', 'h4',
+                'violinski kljuc', 'h4', 'a4', 'g4', 'a4', 'h4', 'h4', 'h4', 'h4', 'a4', 'a4', 'h4', 'a4', 'g4']
+        lambL = ['n1-4', 'n1-4', 'p1-4', 'n1-4', 'n1-4', 'p1-4', 'n1-2', 'n1-8', 'n1-4', 'n1-4', 'n1-2', 'p1-4', 'n1-4', 'n1-2',
+                'p1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'p1-4', 'p1-4', 'p1-4', 'n1-4', 'n1-4', 'p1-4', 'n1-4', 'p1-1']
 
         path = mainFrame.MainFrame.path
         recognize.cropNotes(path)
@@ -161,6 +164,13 @@ class PlayNotes():
                     check += 1
             for i in range(lenghtsLen):
                 if (lengths[i] == test1L[i]):
+                    check2 += 1
+        elif (os.path.basename(path) == 'lamb.jpg'):
+            for i in range(notesLen):
+                if (notenames[i] == lamb[i]):
+                    check += 1
+            for i in range(lenghtsLen):
+                if (lengths[i] == lambL[i]):
                     check2 += 1
 
         print(notenames)

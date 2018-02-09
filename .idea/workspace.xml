@@ -4,6 +4,7 @@
     <list default="true" id="505030e8-64b3-478d-9553-54749eec170f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/bitwtest.png" afterPath="$PROJECT_DIR$/bitwtest.png" />
+      <change beforePath="$PROJECT_DIR$/images/lamb.png" afterPath="$PROJECT_DIR$/images/lamb.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota0.png" afterPath="$PROJECT_DIR$/images/notes/nota0.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota1.png" afterPath="$PROJECT_DIR$/images/notes/nota1.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota10.png" afterPath="$PROJECT_DIR$/images/notes/nota10.png" />
@@ -32,23 +33,11 @@
       <change beforePath="$PROJECT_DIR$/images/notes/nota31.png" afterPath="$PROJECT_DIR$/images/notes/nota31.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota32.png" afterPath="$PROJECT_DIR$/images/notes/nota32.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota33.png" afterPath="$PROJECT_DIR$/images/notes/nota33.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota34.png" afterPath="$PROJECT_DIR$/images/notes/nota34.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota35.png" afterPath="$PROJECT_DIR$/images/notes/nota35.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota36.png" afterPath="$PROJECT_DIR$/images/notes/nota36.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota37.png" afterPath="$PROJECT_DIR$/images/notes/nota37.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota38.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota39.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota34.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota35.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota36.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota37.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota4.png" afterPath="$PROJECT_DIR$/images/notes/nota4.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota40.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota41.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota42.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota43.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota44.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota45.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota46.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota47.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota48.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota49.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota5.png" afterPath="$PROJECT_DIR$/images/notes/nota5.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota6.png" afterPath="$PROJECT_DIR$/images/notes/nota6.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota7.png" afterPath="$PROJECT_DIR$/images/notes/nota7.png" />
@@ -56,10 +45,6 @@
       <change beforePath="$PROJECT_DIR$/images/notes/nota9.png" afterPath="$PROJECT_DIR$/images/notes/nota9.png" />
       <change beforePath="$PROJECT_DIR$/images/parts/slika0.png" afterPath="$PROJECT_DIR$/images/parts/slika0.png" />
       <change beforePath="$PROJECT_DIR$/images/parts/slika1.png" afterPath="$PROJECT_DIR$/images/parts/slika1.png" />
-      <change beforePath="$PROJECT_DIR$/images/test2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/test3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/test4.PNG" afterPath="$PROJECT_DIR$/images/test4.PNG" />
-      <change beforePath="$PROJECT_DIR$/mainFrame.py" afterPath="$PROJECT_DIR$/mainFrame.py" />
       <change beforePath="$PROJECT_DIR$/melody.mid" afterPath="$PROJECT_DIR$/melody.mid" />
       <change beforePath="$PROJECT_DIR$/playNotes.py" afterPath="$PROJECT_DIR$/playNotes.py" />
     </list>
@@ -99,8 +84,8 @@
       <file leaf-file-name="playNotes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playNotes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="162" column="39" lean-forward="false" selection-start-line="162" selection-start-column="39" selection-end-line="162" selection-end-column="39" />
+            <state relative-caret-position="378">
+              <caret line="172" column="39" lean-forward="false" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -632,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518207341644</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="prebaceni test primeri u jpg: test1, test5, ops, resized, ispisuje tacnost za njih">
+      <created>1518211368078</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1518211368078</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -640,10 +632,10 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36004162" sideWeight="0.215625" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22788762" sideWeight="0.215625" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.4875" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36004162" sideWeight="0.784375" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22788762" sideWeight="0.784375" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -697,7 +689,8 @@
     <MESSAGE value="slike za testiranje: resized radi 100%, lamb ne radi 2. red, ops omasi par nota al je ok, proba sece u prva 3 reda poslednje note" />
     <MESSAGE value="radi 95% za test5" />
     <MESSAGE value="dodate ispravne note i trajanja za slike resized, ops i test5" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodate ispravne note i trajanja za slike resized, ops i test5" />
+    <MESSAGE value="prebaceni test primeri u jpg: test1, test5, ops, resized, ispisuje tacnost za njih" />
+    <option name="LAST_COMMIT_MESSAGE" value="prebaceni test primeri u jpg: test1, test5, ops, resized, ispisuje tacnost za njih" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -899,8 +892,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playNotes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="162" column="39" lean-forward="false" selection-start-line="162" selection-start-column="39" selection-end-line="162" selection-end-column="39" />
+        <state relative-caret-position="378">
+          <caret line="172" column="39" lean-forward="false" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
