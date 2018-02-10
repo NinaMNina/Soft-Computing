@@ -33,10 +33,10 @@ def cropNotes(path):
                 img.itemset((row, col, 1), 255)
                 img.itemset((row, col, 2), 255)
 
-    cv2.imshow('result', img)
-
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    # cv2.imshow('result', img)
+    #
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
 
     #PRAVIMO MATRICU POZICIJA HORIZONTALNIH LINIJA
     col = img.shape[1] / 2
@@ -123,9 +123,9 @@ def cropNotes(path):
         #         img.itemset((row, col, 1), 255)
         #         img.itemset((row, col, 2), 255)
 
-        cv2.imshow('lajna', lajna)
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()
+        # cv2.imshow('lajna', lajna)
+        # cv2.waitKey(0)
+        # cv2.destroyAllWindows()
         count+=1
         num_lines=0
     if (num_lines!=0):

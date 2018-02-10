@@ -39,7 +39,7 @@ def doRotation(path):
     # cv2.imshow('img2 before borders', img)
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
-    border_size = int(img.shape[1]*0.2)
+    border_size = int(img.shape[1]*0.4)
     img=cv2.copyMakeBorder(img, top=border_size, bottom=border_size, left=border_size, right=border_size, borderType= cv2.BORDER_CONSTANT )
     # cv2.imshow('img2 with borders',img)
     # cv2.waitKey(0)

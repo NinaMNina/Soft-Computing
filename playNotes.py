@@ -36,11 +36,6 @@ class PlayNotes():
                   'n1-8', 'p1-8', 'n1-8', 'p1-8', 'n1-8', 'n1-8', 'p1-8', 'p1-8', 'p1-4', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8', 'p1-4']
 
 
-        test1 = ['violinski kljuc', 'f4', 'f4', 'g4', 'g4', 'g4', 'a4', 'c5', 'c5', 'a4', 'a4', 'g4', 'g4', 'g4', 'a4', 'f4', 'd4',
-                 'violinski kljuc', 'f4', 'f4', 'g4', 'g4', 'g4', 'a4', 'c5', 'c5', 'd5', 'c5', 'a4', 'g4', 'f4', 'pauza']
-        test1L =['n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2',
-                 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'p1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'p1-2']
-
         lamb = ['violinski kljuc', 'h4', 'a4', 'g4', 'a4', 'h4', 'h4', 'h4', 'c4', 'a4', 'a4', 'a4', 'h4', 'h4', 'h4',
                 'violinski kljuc', 'h4', 'a4', 'g4', 'a4', 'h4', 'h4', 'h4', 'h4', 'a4', 'a4', 'h4', 'a4', 'g4']
         lambL = ['n1-4', 'n1-4', 'p1-4', 'n1-4', 'n1-4', 'p1-4', 'n1-2', 'n1-8', 'n1-4', 'n1-4', 'n1-2', 'p1-4', 'n1-4', 'n1-2',
@@ -154,7 +149,7 @@ class PlayNotes():
            for i in range(lenghtsLen):
                if(lengths[i] == opsL[i]):
                     check2 += 1
-        elif(os.path.basename(path) == 'resized.jpg' or os.path.basename(path) == 'rotated.jpg'):
+        elif(os.path.basename(path) == 'resized.jpg' or os.path.basename(path) == 'rot.jpg'):
            for i in range(notesLen):
                if(notenames[i] == resized[i]):
                    check += 1
@@ -168,14 +163,8 @@ class PlayNotes():
             for i in range(lenghtsLen):
                 if (lengths[i] == test5L[i]):
                     check2 += 1
-        elif (os.path.basename(path) == 'test1.jpg'):
-            for i in range(notesLen):
-                if (notenames[i] == test1[i]):
-                    check += 1
-            for i in range(lenghtsLen):
-                if (lengths[i] == test1L[i]):
-                    check2 += 1
-        elif (os.path.basename(path) == 'lamb.jpg'):
+
+        elif (os.path.basename(path) == 'lamb.jpg' or os.path.basename(path) == 'rot2.jpg'):
             for i in range(notesLen):
                 if (notenames[i] == lamb[i]):
                     check += 1
