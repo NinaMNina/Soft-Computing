@@ -5,4 +5,4 @@ Tema: Prepoznavanje nota iz notne sveske i generisanje melodija na osnovu prepoz
 
 Tim: Tanja Indjic RA145/14, Nina Miladinovic RA119/14
 
-![Poster](Soft-Computing/poster-1.png)
+![Poster](poster-1.png?raw=true "Poster")
