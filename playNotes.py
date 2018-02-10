@@ -46,6 +46,8 @@ class PlayNotes():
         lambL = ['n1-4', 'n1-4', 'p1-4', 'n1-4', 'n1-4', 'p1-4', 'n1-2', 'n1-8', 'n1-4', 'n1-4', 'n1-2', 'p1-4', 'n1-4', 'n1-2',
                 'p1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'p1-4', 'p1-4', 'p1-4', 'n1-4', 'n1-4', 'p1-4', 'n1-4', 'p1-1']
 
+
+
         path = mainFrame.MainFrame.path
         rotate.doRotation(path)
         pic_loc = os.getcwd()
@@ -126,7 +128,7 @@ class PlayNotes():
             else:
                 duration.append(0)
 
-            print (note_name + ' ' + note_duration)
+            #print (note_name + ' ' + note_duration)
         print ('prepoznate note pre izbacivanja taktica:')
 
         print ("len pre izbacivanja taktica: " + str(len(notenames)))
@@ -149,7 +151,7 @@ class PlayNotes():
            for i in range(lenghtsLen):
                if(lengths[i] == opsL[i]):
                     check2 += 1
-        elif(os.path.basename(path) == 'resized.jpg'):
+        elif(os.path.basename(path) == 'resized.jpg' or os.path.basename(path) == 'rotated.jpg'):
            for i in range(notesLen):
                if(notenames[i] == resized[i]):
                    check += 1
@@ -178,11 +180,13 @@ class PlayNotes():
                 if (lengths[i] == lambL[i]):
                     check2 += 1
 
+        print('note:')
         print(notenames)
+        print('trajanja:')
         print(lengths)
         print ('pogodjenih visina ' + str(check) + ' od ' + str(notesLen) )
         print('pogodjenih duzina ' + str(check2) + ' od ' + str(lenghtsLen))
-        ctypes.windll.user32.MessageBoxW(0, "Pogodjeni tonaliteti nota: " + str(round(check/notesLen*100, 2)) + "%"
+        ctypes.windll.user32.MessageBoxW(0, "Pogodjene visine nota: " + str(round(check/notesLen*100, 2)) + "%"
                                          + "\nPogodjena trajanja nota: " + str(round(check2/lenghtsLen*100, 2)) + "%"
                                          , "Rezultat", 0)
 

@@ -22,7 +22,8 @@ class MainFrame():
 
         cwd = os.getcwd()
         self.root = tk.Tk()
-        screen_width = int(self.root.winfo_screenwidth() * 0.7)
+        self.root.resizable(False, False)
+        screen_width = int(self.root.winfo_screenwidth()*0.9)
         screen_height = int(self.root.winfo_screenheight() *0.9)
 
         self.root.title('TNotes - Music Note Recognition')
@@ -38,7 +39,6 @@ class MainFrame():
 
         label2 = Label(self.labelF, text="Start to train CNN:")
         label2.grid(row=1, column=0)
-
         button1 = Button(self.labelF, text="Start", command=self.callNN)
         button1.grid(row=1, column=1)
 
@@ -158,7 +158,7 @@ class MainFrame():
             raise SystemExit
 
     def neuralDuration(self):
-        #cnnd = CNNDuraiton.__init__()
+        cnnd = CNNDuraiton.__init__()
         # CNNDuraiton.checkLength('images/predict/1-2.png')
         # print('---should be n1-2---')
         # CNNDuraiton.checkLength('images/predict/1-16.png')
@@ -183,7 +183,7 @@ class MainFrame():
         # print('---should be p1-4---')
         # CNNDuraiton.checkLength('images/predict/pola_pauze.png')
         # print('---should be p1-2---')
-        cnnv = CNNValue.__init__()
+        #cnnv = CNNValue.__init__()
         #CNNValue.checkNote('images/predict/1-2.png')
 
         self.threads.__delitem__(1)
@@ -197,7 +197,7 @@ class MainFrame():
         while True:
             x = 5
             y = 0
-            screen_width = int(self.root.winfo_screenwidth() * 0.11)
+            screen_width = int(self.root.winfo_screenwidth() * 0.17)
             if track == 0:
                 for i in range(0, screen_width):
                     time.sleep(0.025)

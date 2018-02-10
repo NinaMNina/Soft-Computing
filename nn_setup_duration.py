@@ -19,21 +19,28 @@ class CNNDuraiton():
         nClasses = 10
 
         model = Sequential()
-        model.add(Conv2D(32, kernel_size=(3, 3), activation='linear', input_shape=(70, 30, 3), padding='same'))
-        model.add(LeakyReLU(alpha=0.1))
-        model.add(MaxPooling2D((2, 2), padding='same'))
-        model.add(Conv2D(64, (3, 3), activation='linear', padding='same'))
-        model.add(LeakyReLU(alpha=0.1))
-        model.add(MaxPooling2D(pool_size=(2, 2), padding='same'))
-        model.add(Conv2D(128, (3, 3), activation='linear', padding='same'))
-        model.add(LeakyReLU(alpha=0.1))
-        model.add(MaxPooling2D(pool_size=(2, 2), padding='same'))
+        model.add(Conv2D(32, (3, 3), padding='same', activation='relu', input_shape=(70, 30, 3)))
+        model.add(Conv2D(32, (3, 3), activation='relu'))
+        model.add(MaxPooling2D(pool_size=(2, 2)))
+        model.add(Dropout(0.25))
+
+        model.add(Conv2D(64, (3, 3), padding='same', activation='relu'))
+        model.add(Conv2D(64, (3, 3), activation='relu'))
+        model.add(MaxPooling2D(pool_size=(2, 2)))
+        model.add(Dropout(0.25))
+
+        model.add(Conv2D(64, (3, 3), padding='same', activation='relu'))
+        model.add(Conv2D(64, (3, 3), activation='relu'))
+        model.add(MaxPooling2D(pool_size=(2, 2)))
+        model.add(Dropout(0.25))
+
         model.add(Flatten())
-        model.add(Dense(512, activation='linear'))
-        model.add(LeakyReLU(alpha=0.1))
+        model.add(Dense(512, activation='relu'))
+        model.add(Dropout(0.5))
         model.add(Dense(nClasses, activation='softmax'))
 
         model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['accuracy'])
+
 
         train_datagen = ImageDataGenerator(
         rescale = 1./255,
@@ -56,7 +63,7 @@ class CNNDuraiton():
         class_mode = 'categorical')
 
         model.fit_generator(training_set,
-        steps_per_epoch = 703,
+        steps_per_epoch = 716,
         epochs = 2,
         validation_data = test_set,
         validation_steps = 150)
