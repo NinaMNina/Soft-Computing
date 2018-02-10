@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505030e8-64b3-478d-9553-54749eec170f" name="Default" comment="sredjena 2.neuronska i pocetni prozor">
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/test5-trans.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/transform.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/soft.iml" afterPath="$PROJECT_DIR$/.idea/soft.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bitwtest.png" afterPath="$PROJECT_DIR$/bitwtest.png" />
       <change beforePath="$PROJECT_DIR$/images/Thumbs.db" afterPath="$PROJECT_DIR$/images/Thumbs.db" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota0.png" afterPath="$PROJECT_DIR$/images/notes/nota0.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota1.png" afterPath="$PROJECT_DIR$/images/notes/nota1.png" />
@@ -48,9 +43,8 @@
       <change beforePath="$PROJECT_DIR$/images/parts/slika1.png" afterPath="$PROJECT_DIR$/images/parts/slika1.png" />
       <change beforePath="$PROJECT_DIR$/images/predict/Thumbs.db" afterPath="$PROJECT_DIR$/images/predict/Thumbs.db" />
       <change beforePath="$PROJECT_DIR$/images/rotated.jpg" afterPath="$PROJECT_DIR$/images/rotated.jpg" />
+      <change beforePath="$PROJECT_DIR$/mainFrame.py" afterPath="$PROJECT_DIR$/mainFrame.py" />
       <change beforePath="$PROJECT_DIR$/melody.mid" afterPath="$PROJECT_DIR$/melody.mid" />
-      <change beforePath="$PROJECT_DIR$/playNotes.py" afterPath="$PROJECT_DIR$/playNotes.py" />
-      <change beforePath="$PROJECT_DIR$/rotate.py" afterPath="$PROJECT_DIR$/rotate.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainFrame.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainFrame.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainFrame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+            <state relative-caret-position="-1660">
+              <caret line="102" column="105" lean-forward="false" selection-start-line="102" selection-start-column="105" selection-end-line="102" selection-end-column="105" />
               <folding />
             </state>
           </provider>
@@ -95,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playNotes.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="playNotes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playNotes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
@@ -161,10 +155,10 @@
         <option value="$PROJECT_DIR$/nn_setup.py" />
         <option value="$PROJECT_DIR$/recognize.py" />
         <option value="$PROJECT_DIR$/nn_setup_duration.py" />
-        <option value="$PROJECT_DIR$/mainFrame.py" />
         <option value="$PROJECT_DIR$/transform.py" />
         <option value="$PROJECT_DIR$/rotate.py" />
         <option value="$PROJECT_DIR$/playNotes.py" />
+        <option value="$PROJECT_DIR$/mainFrame.py" />
       </list>
     </option>
   </component>
@@ -588,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518267844059</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="dodata transformacija slike">
+      <created>1518302096764</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1518302096764</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -600,7 +601,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.429477" sideWeight="0.24158126" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.4875" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.429477" sideWeight="0.75841874" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.429477" sideWeight="0.75841874" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -658,7 +659,8 @@
     <MESSAGE value="prebaceni test primeri u jpg: test1, test5, ops, resized, ispisuje tacnost za njih" />
     <MESSAGE value="sredjena 2.neuronska i pocetni prozor" />
     <MESSAGE value="dodata transformacija slike" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodata transformacija slike" />
+    <MESSAGE value="uklonjena mogucnost dodavanja gif-a" />
+    <option name="LAST_COMMIT_MESSAGE" value="uklonjena mogucnost dodavanja gif-a" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -840,14 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainFrame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nn_setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -870,6 +864,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="185" column="31" lean-forward="true" selection-start-line="185" selection-start-column="31" selection-end-line="185" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainFrame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1660">
+          <caret line="102" column="105" lean-forward="false" selection-start-line="102" selection-start-column="105" selection-end-line="102" selection-end-column="105" />
           <folding />
         </state>
       </provider>

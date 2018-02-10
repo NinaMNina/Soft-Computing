@@ -100,7 +100,7 @@ class MainFrame():
 
     def addNotes(self):
         print('it wants to add some notes')
-        name = askopenfilename(initialdir="D:/", filetypes=(("JPEG File", "*.jpg"), ("PNG File", "*.png"), ("GIF File", "*.gif")),
+        name = askopenfilename(initialdir="D:/", filetypes=(("JPEG File", "*.jpg"), ("PNG File", "*.png")),
                                title="Choose an Image")
         print(name)
         # Using try in case user types in unknown file or closes without choosing a file.
