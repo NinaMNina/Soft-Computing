@@ -13,11 +13,11 @@ import rotate
 class PlayNotes():
     def __init__(self):
         ops = ['violinski kljuc', 'c4', 'h3', 'c4', 'd4', 'e4', 'd4', 'c4', 'c4', 'h3', 'c4', 'd4', 'e4', 'c4', 'h3', 'c4', 'd4',
-               'violinski kljuc', 'e4', 'd4', 'c4', 'd4', 'c4', 'd4', 'e4', 'f4', 'f4', 'e4', 'd4', 'c4', 'h3', 'c4',
+               'violinski kljuc', 'e4', 'd4', 'c4', 'd4', 'c4', 'd4', 'e4', 'e4', 'e4', 'd4', 'c4', 'h3', 'c4',
                'violinski kljuc', 'e4', 'd4', 'e4', 'f4', 'e4', 'd4', 'c4', 'g4']
 
         opsL = ['n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4',
-                'n1-4', 'n1-4', 'n1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-1', 'n1-1', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2',
+                'n1-4', 'n1-4', 'n1-2', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-8', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2',
                 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-2', 'n1-2', 'n1-2', 'n1-2']
 
 
@@ -46,6 +46,9 @@ class PlayNotes():
         lambL = ['n1-4', 'n1-4', 'p1-4', 'n1-4', 'n1-4', 'p1-4', 'n1-2', 'n1-8', 'n1-4', 'n1-4', 'n1-2', 'p1-4', 'n1-4', 'n1-2',
                 'p1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'p1-4', 'p1-4', 'p1-4', 'n1-4', 'n1-4', 'p1-4', 'n1-4', 'p1-1']
 
+        tryy = ['violinski kljuc', 'd4', 'd4', 'd4', 'e4', 'f4', 'f4', 'e4', 'f4', 'g4', 'a4', 'e4',
+                'violinski kljuc', 'd4', 'g4', 'd4', 'pauza', 'g4', 'a4', 'g4', 'f4', 'e4', 'd4']
+        tryyL = ['n1-4', 'n1-4', 'n1-4', 'n1-8', 'n1-4', 'n1-4', 'n1-8', 'n1-4', 'n1-8', 'n1-2', 'n1-16', 'n1-16', 'n1-8', 'n1-4', 'p1-4', 'n1-16', 'n1-4', 'n1-8', 'n1-4', 'n1-8', 'n1-2']
 
 
         path = mainFrame.MainFrame.path
@@ -179,7 +182,13 @@ class PlayNotes():
             for i in range(lenghtsLen):
                 if (lengths[i] == lambL[i]):
                     check2 += 1
-
+        elif (os.path.basename(path) == 'try.jpg'):
+            for i in range(notesLen):
+                if (notenames[i] == tryy[i]):
+                    check += 1
+            for i in range(lenghtsLen):
+                if (lengths[i] == tryyL[i]):
+                    check2 += 1
         print('note:')
         print(notenames)
         print('trajanja:')
