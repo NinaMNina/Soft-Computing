@@ -1,6 +1,7 @@
 import cv2
 import math
 import os
+import transform
 
 def doRotation(path):
     img = cv2.imread(path, 1)
@@ -47,9 +48,9 @@ def doRotation(path):
     M = cv2.getRotationMatrix2D((img.shape[0]/2,img.shape[1]/2),angleS,1)
     dst = cv2.warpAffine(img,M,(img.shape[0],img.shape[1]))
 
-    cv2.imshow('dst',dst)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    # cv2.imshow('dst',dst)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
 
     left=0
     right=dst.shape[1]
@@ -91,14 +92,36 @@ def doRotation(path):
                 break
         if(out==True):
             break
-    border = int(dst.shape[1]*0.03)
-    print (top, bottom, left, right)
-    slika = dst[ (top-border):(bottom+border), (left-border):(right+border), :]
+    border = int(dst.shape[1] * 0.03)
+    if (border > top):
+        border = top
+    if (border > bottom):
+        border = bottom
+    if (border > left):
+        border = left
+    if (border > right):
+        border = right
+    # print('top', 'bottom', 'left', 'right')
+    # print (top, bottom, left, right)
+    needs_transf = False
+    if (dst.item(top + 1, left + 1, 1) > 200):
+        needs_transf = True
+    if (dst.item(top + 1, right - 1, 1) > 200):
+        needs_transf = True
+    if (dst.item(bottom - 1, right - 1, 1) > 200):
+        needs_transf = True
+    if (dst.item(bottom - 1, left + 1, 1) > 200):
+        needs_transf = True
+    if (needs_transf == True):
+        transform.doRotation(dst, top, bottom, left, right)
+    else:
+        slika = dst[(top - border):(bottom + border), (left - border):(right + border), :]
 
-    slika = (255-slika)
-    # cv2.imshow('kraj',slika)
-    # cv2.waitKey(0)
-    # cv2.destroyAllWindows()
-    pic_loc = os.getcwd()
-    pic_loc += '/images/rotated.jpg'
-    cv2.imwrite(pic_loc, slika)
+        slika = (255 - slika)
+        cv2.imshow('kraj', slika)
+        cv2.waitKey(0)
+        cv2.destroyAllWindows()
+        pic_loc = os.getcwd()
+        pic_loc += '/images/rotated.jpg'
+
+        cv2.imwrite(pic_loc, slika)

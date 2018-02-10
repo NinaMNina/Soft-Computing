@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505030e8-64b3-478d-9553-54749eec170f" name="Default" comment="sredjena 2.neuronska i pocetni prozor">
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/test5-trans.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/transform.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/soft.iml" afterPath="$PROJECT_DIR$/.idea/soft.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/bitwtest.png" afterPath="$PROJECT_DIR$/bitwtest.png" />
-      <change beforePath="$PROJECT_DIR$/images/lamb.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Thumbs.db" afterPath="$PROJECT_DIR$/images/Thumbs.db" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota0.png" afterPath="$PROJECT_DIR$/images/notes/nota0.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota1.png" afterPath="$PROJECT_DIR$/images/notes/nota1.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota10.png" afterPath="$PROJECT_DIR$/images/notes/nota10.png" />
@@ -27,51 +31,26 @@
       <change beforePath="$PROJECT_DIR$/images/notes/nota26.png" afterPath="$PROJECT_DIR$/images/notes/nota26.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota27.png" afterPath="$PROJECT_DIR$/images/notes/nota27.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota28.png" afterPath="$PROJECT_DIR$/images/notes/nota28.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota29.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota29.png" afterPath="$PROJECT_DIR$/images/notes/nota29.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota3.png" afterPath="$PROJECT_DIR$/images/notes/nota3.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota30.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota31.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota33.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota34.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota35.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota36.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota37.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota38.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota39.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota30.png" afterPath="$PROJECT_DIR$/images/notes/nota30.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota31.png" afterPath="$PROJECT_DIR$/images/notes/nota31.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota32.png" afterPath="$PROJECT_DIR$/images/notes/nota32.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota33.png" afterPath="$PROJECT_DIR$/images/notes/nota33.png" />
+      <change beforePath="$PROJECT_DIR$/images/notes/nota34.png" afterPath="$PROJECT_DIR$/images/notes/nota34.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota4.png" afterPath="$PROJECT_DIR$/images/notes/nota4.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota40.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota41.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota42.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota43.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota44.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota45.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota46.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota47.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota48.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota49.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota5.png" afterPath="$PROJECT_DIR$/images/notes/nota5.png" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/notes/nota51.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota6.png" afterPath="$PROJECT_DIR$/images/notes/nota6.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota7.png" afterPath="$PROJECT_DIR$/images/notes/nota7.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota8.png" afterPath="$PROJECT_DIR$/images/notes/nota8.png" />
       <change beforePath="$PROJECT_DIR$/images/notes/nota9.png" afterPath="$PROJECT_DIR$/images/notes/nota9.png" />
-      <change beforePath="$PROJECT_DIR$/images/ops.jpg" afterPath="$PROJECT_DIR$/images/ops.jpg" />
       <change beforePath="$PROJECT_DIR$/images/parts/slika0.png" afterPath="$PROJECT_DIR$/images/parts/slika0.png" />
       <change beforePath="$PROJECT_DIR$/images/parts/slika1.png" afterPath="$PROJECT_DIR$/images/parts/slika1.png" />
-      <change beforePath="$PROJECT_DIR$/images/parts/slika2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/parts/slika3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/parts/slika4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/parts/slika5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/proba.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/resized.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/predict/Thumbs.db" afterPath="$PROJECT_DIR$/images/predict/Thumbs.db" />
       <change beforePath="$PROJECT_DIR$/images/rotated.jpg" afterPath="$PROJECT_DIR$/images/rotated.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/test1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/test4.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/test5.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/melody.mid" afterPath="$PROJECT_DIR$/melody.mid" />
       <change beforePath="$PROJECT_DIR$/playNotes.py" afterPath="$PROJECT_DIR$/playNotes.py" />
+      <change beforePath="$PROJECT_DIR$/rotate.py" afterPath="$PROJECT_DIR$/rotate.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,13 +61,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="bitwise.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitwise.py">
+      <file leaf-file-name="rotate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rotate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="-1023">
+              <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="52" selection-end-column="29" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,39 +76,50 @@
       <file leaf-file-name="mainFrame.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainFrame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="199" column="67" lean-forward="false" selection-start-line="199" selection-start-column="67" selection-end-line="199" selection-end-column="67" />
+            <state relative-caret-position="111">
+              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transform.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/transform.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playNotes.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="playNotes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playNotes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2750">
-              <caret line="189" column="39" lean-forward="false" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="185" column="31" lean-forward="true" selection-start-line="185" selection-start-column="31" selection-end-line="185" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="try.jpg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/images/try.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nn_setup_duration.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nn_setup_duration.py">
+      <file leaf-file-name="nn_setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nn_setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="104">
+              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -170,18 +160,19 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/nn_setup.py" />
         <option value="$PROJECT_DIR$/recognize.py" />
-        <option value="$PROJECT_DIR$/rotate.py" />
         <option value="$PROJECT_DIR$/nn_setup_duration.py" />
         <option value="$PROJECT_DIR$/mainFrame.py" />
+        <option value="$PROJECT_DIR$/transform.py" />
+        <option value="$PROJECT_DIR$/rotate.py" />
         <option value="$PROJECT_DIR$/playNotes.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="604" />
-    <option name="y" value="259" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="x" value="-65" />
+    <option name="y" value="314" />
+    <option name="width" value="1370" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -206,22 +197,17 @@
               <item name="soft" type="b2602c69:ProjectViewProjectNode" />
               <item name="Soft-Computing" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="soft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Soft-Computing" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../invertingImages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Soft-Computing-prefinal" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -606,14 +592,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12664714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38813737" sideWeight="0.23697917" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.429477" sideWeight="0.24158126" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.4875" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38813737" sideWeight="0.7630208" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.429477" sideWeight="0.75841874" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -670,7 +657,8 @@
     <MESSAGE value="dodate ispravne note i trajanja za slike resized, ops i test5" />
     <MESSAGE value="prebaceni test primeri u jpg: test1, test5, ops, resized, ispisuje tacnost za njih" />
     <MESSAGE value="sredjena 2.neuronska i pocetni prozor" />
-    <option name="LAST_COMMIT_MESSAGE" value="sredjena 2.neuronska i pocetni prozor" />
+    <MESSAGE value="dodata transformacija slike" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodata transformacija slike" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -698,7 +686,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/predict/cela_pauza.png" />
     <entry file="file://$PROJECT_DIR$/images/predict/d4.png" />
     <entry file="file://$PROJECT_DIR$/images/predict/len1-4.png" />
     <entry file="file://$PROJECT_DIR$/test_data1/pauze4/4.png" />
@@ -775,58 +762,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/rotated.jpg" />
-    <entry file="file://$PROJECT_DIR$/rotate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="103" column="20" lean-forward="false" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/tkinter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="2094" column="0" lean-forward="false" selection-start-line="2094" selection-start-column="0" selection-end-line="2094" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nn_setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="32" column="103" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitwise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="1241" column="0" lean-forward="false" selection-start-line="1241" selection-start-column="0" selection-end-line="1241" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/legacy/interfaces.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/tkinter/__init__.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/models.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/legacy/interfaces.py" />
     <entry file="file://$PROJECT_DIR$/images/notes/nota7.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -862,42 +800,78 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainFrame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="199" column="67" lean-forward="false" selection-start-line="199" selection-start-column="67" selection-end-line="199" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/try.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/try.png" />
     <entry file="file://$PROJECT_DIR$/nn_setup_duration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="340">
           <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="35" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playNotes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2750">
-          <caret line="189" column="39" lean-forward="false" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/try.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitwise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1023">
+          <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="52" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainFrame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nn_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playNotes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="185" column="31" lean-forward="true" selection-start-line="185" selection-start-column="31" selection-end-line="185" selection-end-column="31" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

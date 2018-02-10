@@ -45,6 +45,12 @@ class PlayNotes():
                 'violinski kljuc', 'd4', 'g4', 'd4', 'pauza', 'g4', 'a4', 'g4', 'f4', 'e4', 'd4']
         tryyL = ['n1-4', 'n1-4', 'n1-4', 'n1-8', 'n1-4', 'n1-4', 'n1-8', 'n1-4', 'n1-8', 'n1-2', 'n1-16', 'n1-16', 'n1-8', 'n1-4', 'p1-4', 'n1-16', 'n1-4', 'n1-8', 'n1-4', 'n1-8', 'n1-2']
 
+        test5r = ['violinski kljuc', 'c4', 'pauza', 'c4', 'd4', 'e4', 'pauza', 'd4', 'c4', 'pauza', 'pauza', 'g4', 'pauza', 'pauza',
+                  'e4', 'pauza', 'pauza', 'c4', 'pauza', 'pauza''g4', 'pauza', 'pauza', 'pauza', 'violinski kljuc', 'g4', 'pauza', 'g4', 'pauza',
+                  'f4', 'e4', 'pauza', 'pauza', 'pauza', 'd4', 'pauza', 'pauza', 'g4', 'pauza', 'pauza',
+                  'c40', 'pauza', 'pauza', 'pauza']
+        test5rL = ['n1-8', 'p1-8', 'n1-4', 'n1-4', 'n1-8', 'p1-8', 'n1-8' 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8','p1-8', 'n1-8', 'p1-8', 'p1-8' 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8','p1-8',
+                   'p1-4', 'n1-8', 'p1-8', 'n1-8', 'p1-8', 'n1-8', 'n1-8', 'p1-8', 'p1-8', 'p1-4', 'n1-8', 'p1-8', 'p1-8', 'n1-8', 'p1-8', 'p1-8','n1-8', 'p1-8', 'p1-8', 'p1-4']
 
         path = mainFrame.MainFrame.path
         rotate.doRotation(path)
@@ -177,6 +183,13 @@ class PlayNotes():
                     check += 1
             for i in range(lenghtsLen):
                 if (lengths[i] == tryyL[i]):
+                    check2 += 1
+        elif (os.path.basename(path) == 'test5-trans.png'):
+            for i in range(notesLen):
+                if (notenames[i] == test5r[i]):
+                    check += 1
+            for i in range(lenghtsLen):
+                if (lengths[i] == test5rL[i]):
                     check2 += 1
         print('note:')
         print(notenames)
