@@ -7,6 +7,8 @@ import os
 from nn_setup_duration import CNNDuraiton
 from nn_setup import CNNValue
 import ctypes  # An included library with Python install.
+import rotate
+
 
 class PlayNotes():
     def __init__(self):
@@ -45,7 +47,10 @@ class PlayNotes():
                 'p1-4', 'n1-4', 'n1-4', 'n1-4', 'n1-4', 'p1-4', 'p1-4', 'p1-4', 'n1-4', 'n1-4', 'p1-4', 'n1-4', 'p1-1']
 
         path = mainFrame.MainFrame.path
-        recognize.cropNotes(path)
+        rotate.doRotation(path)
+        pic_loc = os.getcwd()
+        pic_loc += '/images/rotated.jpg'
+        recognize.cropNotes(pic_loc)
         print ('notes cropped')
 
         notenames = []
